@@ -18,11 +18,6 @@
 //
 
 // Button placeholder used to create button types
-// TODO: We would like to target the <button> element directly instead of using this placeholder.
-// We cannot do this in Iverson because we do not use the button element properly,
-// plus many buttons are still using bootstrap, and this would conflict with those.
-// One day when we have replaced EVERY single button in the app with the proper markup,
-// We can simply rewrite this to target the <button> element
 %button {
   @include reset-button();
   user-select: none;
@@ -30,7 +25,6 @@
   cursor: pointer;
 
   // Text formatting
-  // Possibily remove this block
   color: $button-base-color;
   font-family: $button-font-family;
   font-size: $button-font-size;
@@ -68,7 +62,7 @@
     // Makes the focus outline slightly less obstrusive
     outline-offset: $button-focus-outline-offset;
     // Make outline more appealing to the eye
-    outline-color: #cfcfcf;
+    outline-color: $border-input;
   }
 
   // Disabled state
@@ -103,7 +97,6 @@ label[class^='button-'] {
 // -------------------------
 
 // Plain button (that should always have an icon to indicate that it is a button)
-// TODO: One day when we switch to targeting buttons directly, we can remove the extends
 .button-text {
   @extend %button;
 }
