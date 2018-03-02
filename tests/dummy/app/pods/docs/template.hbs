@@ -1,0 +1,27 @@
+{{!-- BEGIN-SNIPPET docs-viewer.hbs --}}
+{{#docs-viewer as |viewer|}}
+  {{#viewer.nav as |nav|}}
+    {{nav.item 'Introduction' 'docs.index'}}
+    {{nav.item 'Usage' 'docs.usage'}}
+    {{nav.item 'Quickstart' 'docs.quickstart'}}
+    {{nav.item 'Patterns' 'docs.patterns'}}
+    {{#nav.subnav as |nav|}}
+      {{nav.item 'Pattern one' 'docs.patterns.pattern-one'}}
+    {{/nav.subnav}}
+    {{nav.item 'Components' 'docs.components.index'}}
+    {{#nav.subnav as |nav|}}
+      {{nav.item 'Hero' 'docs.components.docs-hero'}}
+      {{nav.item 'Logo' 'docs.components.docs-logo'}}
+      {{nav.item 'Navbar' 'docs.components.docs-navbar'}}
+      {{nav.item 'Snippet' 'docs.components.docs-snippet'}}
+      {{nav.item 'Viewer' 'docs.components.docs-viewer'}}
+      {{nav.item 'Demo' 'docs.components.docs-demo'}}
+    {{/nav.subnav}}
+  {{/viewer.nav}}
+
+  {{#viewer.main}}
+    {{outlet}}
+  {{/viewer.main}}
+
+{{/docs-viewer}}
+{{!-- END-SNIPPET --}}

@@ -7,6 +7,13 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('docs', function() {
+    this.route('installation');
+    this.route('quickstart');
+    this.route('examples', function() {
+      // Example routes here.
+    });
+  });
 });
 
 export default Router;
