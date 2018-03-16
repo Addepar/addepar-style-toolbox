@@ -1,7 +1,17 @@
 addepar-toolbox
 ==============================================================================
 
-[Short description of the addon.]
+This addon contains most of the CSS used in Addepar's component library (better name TBD).
+Each addon in our component library will import specific CSS "modules" from this toolbox.
+
+As a general rule, this toolbox is for standardized, well-designed, reusable UI styles
+and components. One-off styling or "hacks" should live directly within your application.
+
+The UI in this toolbox was created to be framework agnostic. It does not function without
+code yet- it is pure styling, with selector hooks for interactivity.
+It is up to the developer to create fully functioning UI in their own projects.
+So for example, if you want to use a fully working dropdown component with Ember,
+you would use our ember-addon version of that component (ice-pop/ice-dropdown).
 
 Installation
 ------------------------------------------------------------------------------
@@ -14,7 +24,18 @@ ember install addepar-toolbox
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+Once installed, you can start importing the Sass files directly into your own CSS.
+
+For example, assuming your app has the typical styles directory setup, you can
+include all of the toolbox in your `app/styles/app.scss` file:
+```
+@import 'addepar-toolbox';
+```
+
+Or for a more specific UI piece:
+```
+@import 'addepar-toolbox/elements/button/index';
+```
 
 
 Contributing
@@ -28,14 +49,11 @@ Contributing
 
 ### Linting
 
-* `yarn lint:js`
-* `yarn lint:js --fix`
+* `./node_modules/sass-lint/bin/sass-lint.js -vq`
 
 ### Running tests
 
-* `ember test` – Runs the test suite on the current Ember version
-* `ember test --server` – Runs the test suite in "watch mode"
-* `yarn test` – Runs `ember try:each` to test your addon against multiple Ember versions
+* Tests TBD, this is purely CSS with no JS
 
 ### Running the dummy application
 
