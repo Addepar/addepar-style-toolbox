@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  name: 'addepar-toolbox',
+  name: '@addepar/style-toolbox',
 
   included(app) {
     app.options = app.options || {};
