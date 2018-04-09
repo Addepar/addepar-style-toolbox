@@ -6,7 +6,7 @@ module.exports = {
     const writeFile = require('broccoli-file-creator');
     const mergeTrees = require('broccoli-merge-trees');
 
-    let stylesTree = new Funnel('styles', {
+    let stylesTree = new Funnel(`${this.root}/styles`, {
       destDir: '@addepar/style-toolbox'
     });
 
