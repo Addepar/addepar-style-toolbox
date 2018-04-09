@@ -10,7 +10,10 @@ module.exports = {
       destDir: '@addepar/style-toolbox'
     });
 
-    let indexTree = writeFile('@addepar/style-toolbox.scss', `@import '@addepar/style-toolbox/index';`);
+    let indexTree = writeFile(
+      '@addepar/style-toolbox.scss',
+      `@import './style-toolbox/index';`
+    );
 
     return mergeTrees([stylesTree, indexTree]);
   },
