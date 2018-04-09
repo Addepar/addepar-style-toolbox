@@ -1,7 +1,22 @@
-'use strict';
-
 module.exports = {
   name: '@addepar/style-toolbox',
+
+  treeForStyles() {
+    const Funnel = require('broccoli-funnel');
+    const writeFile = require('broccoli-file-creator');
+    const mergeTrees = require('broccoli-merge-trees');
+
+    let stylesTree = new Funnel('styles', {
+      destDir: '@addepar/style-toolbox'
+    });
+
+    let indexTree = writeFile(
+      '@addepar/style-toolbox.scss',
+      `@import './style-toolbox/index';`
+    );
+
+    return mergeTrees([stylesTree, indexTree]);
+  },
 
   included(app) {
     app.options = app.options || {};
