@@ -34,9 +34,6 @@
 //
 // Styleguide Adde Pop - Adde Tooltip
 
-// Common adde-pop styles
-@import '../common/pop-menu/core';
-
 $tooltip-placements: ('left': 'horizontal', 'right': 'horizontal', 'top': 'vertical', 'bottom': 'vertical');
 
 @include arrow-box(

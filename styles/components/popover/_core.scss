@@ -36,9 +36,6 @@
 //
 // Styleguide Adde Pop - Adde Popover
 
-// Common adde-pop styles
-@import '../common/pop-menu/core';
-
 $popover-placements: ('left': 'horizontal', 'right': 'horizontal', 'top': 'vertical', 'bottom': 'vertical');
 
 @include arrow-box(
