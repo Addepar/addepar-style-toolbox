@@ -1,4 +1,5 @@
-@import '../utils/inputs';
+// Core input mixins
+@import '../mixins';
 
 // Core Button Mixins
 // -----------------------------------------------------------------------------
@@ -48,8 +49,7 @@
   // Pressed state
   &:active,
   &.is-active, // the .is-active class is to be used when the button needs to be manually pressed, like for dropdowns
-  .open &.dropdown-toggle, // TODO: remove this once dropdowns are replaced in iverson
-  &.ice-dropdown-toggle.is-open {
+  .open &.dropdown-toggle { // TODO: remove this once dropdowns are replaced in iverson
     color: ice-adjust-color($text-color, -$button-pressed-color-inc);
     background-color: ice-adjust-color($background-color, -$button-pressed-color-inc);
     border-color: ice-adjust-color($border-color, -$button-pressed-color-inc);
