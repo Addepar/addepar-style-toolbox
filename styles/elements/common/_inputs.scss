@@ -1,0 +1,28 @@
+// disabled-input()
+//
+// Global styling for disabled elements.
+// Any color modifications need to be done separately.
+//
+// ### Example Usage:
+//
+//   ```
+//   .element:disabled {
+//     @include disabled-input();
+//   }
+//   ```
+//
+// ### Example Output:
+//   ```
+//   .element:disabled {
+//     cursor: not-allowed;
+//     pointer-events: none;
+//     box-shadow: none;
+//   }
+//   ```
+// Styleguide: Style Toolbox - Mixins - Elements - @disabled-input()
+
+@mixin disabled-input() {
+  cursor: not-allowed;
+  pointer-events: none;
+  box-shadow: none;
+}
