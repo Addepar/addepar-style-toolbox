@@ -125,7 +125,7 @@
 //     top: calc(50% - 8px); }
 //   ```
 //
-// Styleguide: Adde Pop - Common - Mixins - @arrow-box()
+// Styleguide: Adde Pop - Utils - Mixins - @arrow-box()
 
 @mixin arrow-box(
   $name,
@@ -309,7 +309,7 @@
 //   }
 //   ```
 //
-// Styleguide: Adde Pop - Common - Mixins - @arrow-box-color-variation()
+// Styleguide: Adde Pop - Utils - Mixins - @arrow-box-color-variation()
 
 // Dev note
 // ------------------------------------
@@ -367,7 +367,7 @@
 //   }
 //   ```
 //
-// Styleguide: Adde Pop - Common - Mixins - @update-arrow-color()
+// Styleguide: Adde Pop - Utils - Mixins - @update-arrow-color()
 
 // Dev note
 // ------------------------------------
@@ -416,7 +416,7 @@
 //               3px 3px 5px rgba(175, 175, 175, 0.1);
 //   ```
 //
-// Styleguide: Adde Pop - Common - Mixins - @create-offset-box-shadow()
+// Styleguide: Adde Pop - Utils - Mixins - @create-offset-box-shadow()
 
 @mixin create-offset-box-shadow($direction, $x-offset, $y-offset, $spread, $color) {
   $left-top:      #{-$x-offset}   #{-$y-offset};

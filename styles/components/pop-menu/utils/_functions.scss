@@ -15,7 +15,7 @@
 //
 // * $border-color = The current border color being used for the main box
 //
-// Styleguide: Adde Pop - Common - Functions - @adjust-arrow-border-color()
+// Styleguide: Adde Pop - Utils - Functions - @adjust-arrow-border-color()
 
 @function adjust-arrow-border-color($border-color) {
   @return darken($border-color, 5%);
