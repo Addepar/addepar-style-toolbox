@@ -183,6 +183,22 @@ label[class^='button-'] {
 
 }
 
+// Button with caret
+// -----------------------------------------------------------------------------
+// A very common button pattern used for dropdowns, popovers, selects, color picker, etc.
+// TODO: better name?
+%popper-target-button {
+  // Layout content and caret
+  display: inline-flex;
+  align-items: center;
+
+  .button-caret {
+    padding: 0 $button-caret-spacing;
+    vertical-align: middle;
+  }
+}
+
+
 // Groups of Buttons
 // -----------------------------------------------------------------------------
 // Container for buttons that should be flush next to each other
