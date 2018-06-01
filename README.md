@@ -37,6 +37,14 @@ Or for a more specific UI piece:
 @import 'addepar-toolbox/elements/button/index';
 ```
 
+Linting
+------------------------------------------------------------------------------
+
+To run Sass lint:
+```
+./node_modules/sass-lint/bin/sass-lint.js -vq
+```
+
 
 Contributing
 ------------------------------------------------------------------------------

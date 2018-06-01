@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@addepar/sass-lint-config@^1.0.0":
-  version "1.0.0"
-  resolved "https://addepar.jfrog.io/addepar/api/npm/npm/@addepar/sass-lint-config/-/sass-lint-config-1.0.0.tgz#486408f84cea37aba030363637c83cfc4dbcca44"
+"@addepar/sass-lint-config@^2.0.1":
+  version "2.0.1"
+  resolved "https://addepar.jfrog.io/addepar/api/npm/npm/@addepar/sass-lint-config/-/sass-lint-config-2.0.1.tgz?dl=https://registry.yarnpkg.com/@addepar/sass-lint-config/-/sass-lint-config-2.0.1.tgz#b9782ffd6b9c5d267cbc54acb32e5254ca789a12"
 
 "@ember/test-helpers@^0.7.18":
   version "0.7.18"

@@ -23,7 +23,7 @@
 //   }
 //   ```
 // Styleguide: Style Toolbox - Mixins - Elements - @invalid-input()
-@mixin invalid-input {
+@mixin invalid-input() {
   border-color: $input-error-border-color;
   outline-color: $input-error-border-color;
 }
