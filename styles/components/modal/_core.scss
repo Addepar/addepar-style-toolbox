@@ -23,7 +23,9 @@
 }
 
 // Base modal
-.ember-modal-dialog {
+.adde-modal {
+  @include font-settings();
+  font-family: $adde-modal-font-family;
   border-radius: $adde-modal-border-radius;
   background-color: $adde-modal-background;
   width: $adde-modal-width;
@@ -43,11 +45,6 @@
   background-color: $adde-modal-overlay-background;
 }
 
-.adde-modal {
-  @include font-settings();
-  font-family: $adde-modal-font-family;
-}
-
 // Body
 .adde-modal-body {
   padding: $adde-modal-body-padding;
@@ -62,7 +59,7 @@
   padding: $adde-modal-header-padding;
   background-color: $adde-modal-header-background;
   color: $adde-modal-header-text-color;
-  
+
   h4.adde-modal-title {
     display: inline-block;
     margin: 0;
@@ -74,7 +71,7 @@
   button.adde-modal-close {
     position: relative;
     float: right;
-    border: 0;
+    border: none;
     top: $adde-modal-header-padding * -1; // offset the padding
     right: $adde-modal-header-padding * -1; // offset the padding
     height: $adde-modal-close-button-size;
