@@ -1,4 +1,6 @@
-// Custom Font Declarations
+// -------------------------
+//  Utilities | Typography - Font Declarations
+// -------------------------
 //
 // Style Toolbox comes with all of the custom fonts that Addepar uses,
 // already declared for you via the @addepar-font-face() mixin, with font weights 100-900.
@@ -16,93 +18,151 @@
 //
 // Styleguide: Style Toolbox - Utilties - Typography - Custom Fonts
 
-// Univers Next Font Files
+// Univers Next
 // -------------------------
+  // Light
+  @include addepar-font-face(
+    $univers,
+    '#{$univers-default-font-folder}/#{$univers}-light',
+    ('woff', 'ttf'),
+    $font-weight-light
+  );
 
-@include addepar-font-face('Univers-Next',
-  '#{$univers-font-folder}/UniversNextW01Light', ('woff', 'ttf'), $font-light);
+  // Regular
+  @include addepar-font-face(
+    $univers,
+    '#{$univers-default-font-folder}/#{$univers}-regular',
+    ('woff', 'ttf'),
+    $font-weight-regular
+  );
 
-@include addepar-font-face('Univers-Next',
-  '#{$univers-font-folder}/UniversNextW01Regular', ('woff', 'ttf'), $font-normal);
+  // Medium
+  @include addepar-font-face(
+    $univers,
+    '#{$univers-default-font-folder}/#{$univers}-medium',
+    ('woff', 'ttf'),
+    $font-weight-bold
+  );
 
-@include addepar-font-face('Univers-Next',
-  '#{$univers-font-folder}/UniversNextW01Medium', ('woff', 'ttf'), $font-medium);
+  // Bold
+  @include addepar-font-face(
+    $univers,
+    '#{$univers-default-font-folder}/#{$univers}-bold',
+    ('woff', 'ttf'),
+    $font-weight-x-bold
+  );
 
-@include addepar-font-face('Univers-Next',
-  '#{$univers-font-folder}/UniversNextW01Bold', ('woff', 'ttf'), $font-bold);
-
-
-//  Univers Next Condensed
+// Univers Next Condensed
 // -------------------------
+  // Light
+  @include addepar-font-face(
+    $univers-condensed,
+    '#{$univers-condensed-font-folder}/#{$univers-condensed}-light',
+    ('woff', 'ttf'),
+    $font-weight-light
+  );
 
-@include addepar-font-face('Univers-Next-Condensed',
-  '#{$univers-font-folder}/UniversNW01320CdLt', ('woff', 'ttf'), $font-light);
+  // Regular
+  @include addepar-font-face(
+    $univers-condensed,
+    '#{$univers-condensed-font-folder}/#{$univers-condensed}-regular',
+    ('woff', 'ttf'),
+    $font-weight-regular
+  );
 
-@include addepar-font-face('Univers-Next-Condensed',
-  '#{$univers-font-folder}/UniversNW01420CdRegular', ('woff', 'ttf'), $font-normal);
+  // Medium
+  @include addepar-font-face(
+    $univers-condensed,
+    '#{$univers-condensed-font-folder}/#{$univers-condensed}-medium',
+    ('woff', 'ttf'),
+    $font-weight-bold
+  );
 
-@include addepar-font-face('Univers-Next-Condensed',
-  '#{$univers-font-folder}/UniversNW01520CdMedium', ('woff', 'ttf'), $font-medium);
+  // Bold
+  @include addepar-font-face(
+    $univers-condensed,
+    '#{$univers-condensed-font-folder}/#{$univers-condensed}-bold',
+    ('woff', 'ttf'),
+    $font-weight-x-bold
+  );
 
-@include addepar-font-face('Univers-Next-Condensed',
-  '#{$univers-font-folder}/UniversNW01620CdBold', ('woff', 'ttf'), $font-bold);
-
-
-//  Univers Tabular Numbers
+// Univers Tabular
 // -------------------------
+  // Light
+  @include addepar-font-face(
+    $univers-tabular,
+    '#{$univers-tabular-font-folder}/#{$univers-tabular}-light',
+    ('woff', 'ttf'),
+    $font-weight-light
+  );
 
-@include addepar-font-face('Univers-Tabular',
-  '#{$univers-font-folder}/UniversLTLight', ('woff', 'ttf'), $font-light);
+  // Regular
+  @include addepar-font-face(
+    $univers-tabular,
+    '#{$univers-tabular-font-folder}/#{$univers-tabular}-roman',
+    ('woff', 'ttf'),
+    $font-weight-regular
+  );
 
-@include addepar-font-face('Univers-Tabular',
-  '#{$univers-font-folder}/UniversLTRoman', ('woff', 'ttf'), $font-normal);
+  // Medium
+  @include addepar-font-face(
+    $univers-tabular,
+    '#{$univers-tabular-font-folder}/#{$univers-tabular}-bold',
+    ('woff', 'ttf'),
+    $font-weight-bold
+  );
 
-@include addepar-font-face('Univers-Tabular',
-  '#{$univers-font-folder}/UniversLTBold', ('woff', 'ttf'), $font-bold);
-
-
-// Tiempos Headline Font Files
+// Tiempos Headline
 // -------------------------
+  // Light
+  @include addepar-font-face(
+    $tiempos-headline,
+    '#{$tiempos-headline-font-folder}/#{$tiempos-headline}-light',
+    ('woff', 'eot'),
+    $font-weight-light
+  );
 
-@include addepar-font-face('Tiempos Headline',
-  '#{$tiempos-headline-font-folder}/TiemposHeadlineWeb-Light', ('woff', 'eot'), $font-light);
+  // Regular
+  @include addepar-font-face(
+    $tiempos-headline,
+    '#{$tiempos-headline-font-folder}/#{$tiempos-headline}-regular',
+    ('woff', 'eot'),
+    $font-weight-regular
+  );
 
-@include addepar-font-face('Tiempos Headline', '#{$tiempos-headline-font-folder}/TiemposHeadlineWeb-LightItalic',
-  ('woff', 'eot'), $font-light, italic);
+  // Medium
+  @include addepar-font-face(
+    $tiempos-headline,
+    '#{$tiempos-headline-font-folder}/#{$tiempos-headline}-medium',
+    ('woff', 'eot'),
+    $font-weight-bold
+  );
 
-@include addepar-font-face('Tiempos Headline',
-  '#{$tiempos-headline-font-folder}/TiemposHeadlineWeb-Regular', ('woff', 'eot'), $font-normal);
+  // Bold
+  @include addepar-font-face(
+    $tiempos-headline,
+    '#{$tiempos-headline-font-folder}/#{$tiempos-headline}-bold',
+    ('woff', 'eot'),
+    $font-weight-x-bold
+  );
 
-@include addepar-font-face('Tiempos Headline', '#{$tiempos-headline-font-folder}/TiemposHeadlineWeb-RegularItalic',
-  ('woff', 'eot'), $font-normal, italic);
-
-@include addepar-font-face('Tiempos Headline',
-  '#{$tiempos-headline-font-folder}/TiemposHeadlineWeb-Medium', ('woff', 'eot'), $font-medium);
-
-@include addepar-font-face('Tiempos Headline', '#{$tiempos-headline-font-folder}/TiemposHeadlineWeb-MediumItalic',
-  ('woff', 'eot'), $font-medium, italic);
-
-@include addepar-font-face('Tiempos Headline',
-  '#{$tiempos-headline-font-folder}/TiemposHeadlineWeb-Bold', ('woff', 'eot'), $font-bold);
-
-@include addepar-font-face('Tiempos Headline', '#{$tiempos-headline-font-folder}/TiemposHeadlineWeb-BoldItalic',
-  ('woff', 'eot'), $font-bold, italic);
-
-
-// Tiempos Text Font Files
+// Tiempos Text
 // -------------------------
+  // Regular
+  @include addepar-font-face(
+    $tiempos-text,
+    '#{$tiempos-text-font-folder}/#{$tiempos-text}-regular',
+    ('woff', 'eot'),
+    $font-weight-regular
+  );
 
-@include addepar-font-face('Tiempos Text', '#{$tiempos-text-font-folder}/TiemposTextWeb-Regular',
-  ('woff', 'eot'), $font-normal);
-
-@include addepar-font-face('Tiempos Text', '#{$tiempos-text-font-folder}/TiemposTextWeb-RegularItalic',
-  ('woff', 'eot'), $font-normal, italic);
-
-@include addepar-font-face('Tiempos Text', '#{$tiempos-text-font-folder}/TiemposTextWeb-Semibold',
-  ('woff', 'eot'), $font-medium);
-
-@include addepar-font-face('Tiempos Text', '#{$tiempos-text-font-folder}/TiemposTextWeb-SemiboldItalic',
-  ('woff', 'eot'), $font-medium, italic);
+  // Medium
+  @include addepar-font-face(
+    $tiempos-text,
+    '#{$tiempos-text-font-folder}/#{$tiempos-text}-semibold',
+    ('woff', 'eot'),
+    $font-weight-bold
+  );
 
 // fontawesome
 // -------------------------

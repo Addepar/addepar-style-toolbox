@@ -16,7 +16,6 @@ $fontawesome:                       'fontawesome' !default;
 $sans-serif-fallback:               'Helvetica Neue', 'Helvetica', Arial, sans-serif !default;
 $serif-fallback:                    Georgia, 'Times New Roman', Times, serif !default;
 
-// I imagine that these are the font family variables that we want to be using in CSS declarations
 $font-family-sans-serif:            $univers, $sans-serif-fallback !default;
 $font-family-serif:                 $tiempos, $serif-fallback !default;
 $font-family-condensed:             $univers-condensed, $font-family-sans-serif !default; // This isn't being used at all in iverson
@@ -27,9 +26,6 @@ $font-family-icons:                 $fontawesome !default;
 
 //  Font Folders
 // -------------------------
-// We currently don't have any sort of subdirectories in the fonts directory. Would most likely make sense to add/clean-up font directories.
-// If we decide not to add directories to /fonts, we can remove everything except the global folder.
-
 $global-font-folder:                '/@addepar/style-toolbox/assets/fonts/' !default;
 $univers-font-folder:               $global-font-folder + 'univers/' !default;
 $tiempos-font-folder:               $global-font-folder + 'tiempos/' !default;
