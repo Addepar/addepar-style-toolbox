@@ -20,6 +20,7 @@ $global-font-folder:                '/@addepar/style-toolbox/assets/fonts' !defa
 $univers-font-folder:               $global-font-folder !default;
 $tiempos-headline-font-folder:      $global-font-folder !default;
 $tiempos-text-font-folder:          $global-font-folder !default;
+$fontawesome-font-folder:           $global-font-folder + '/fontawesome' !default;
 
 $univers:                           'Univers-Next' !default;
 $univers-condensed:                 'Univers-Next-Condensed' !default;
@@ -27,6 +28,7 @@ $univers-tabular:                   'Univers-Tabular' !default;
 $tiempos:                           'Tiempos Text' !default;
 $tiempos-headline:                  'Tiempos Headline' !default;
 $backup-fonts:                      'Helvetica Neue', 'Helvetica', Arial, sans-serif !default;
+$fontawesome:                       'fontawesome';
 
 $font-family-sans-serif:  $univers, $backup-fonts !default;
 $font-family-serif:       Georgia, 'Times New Roman', Times, serif !default;

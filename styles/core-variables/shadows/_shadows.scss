@@ -1,0 +1,28 @@
+//  -----------------------------------
+//  Core Variables | Shadows - Shadow Declarations
+//  -----------------------------------
+  //  Offsets
+  //  Spread
+  //  Shadows
+
+//  Offsets
+//  -------------------------
+$box-shadow-no-offset:                    0 0 !default;
+
+$box-shadow-offset-bottom-small:          0 $box-shadow-offset-small !default;     //  0px 3px
+$box-shadow-offset-bottom-medium:         0 $box-shadow-offset-medium !default;    //  0px 4px
+$box-shadow-offset-bottom-large:          0 $box-shadow-offset-large !default;    //  0px 4px
+
+$box-shadow-offset-top-small:             0 (-$box-shadow-offset-small) !default;    // 0px -3px
+$box-shadow-offset-top-medium:            0 (-$box-shadow-offset-medium) !default;   // 0px -4px
+
+//  Spread
+//  -------------------------
+$box-shadow-spread-default:               $box-shadow-size-x-small !default;
+
+//  Shadows
+//  -------------------------
+$default-shadow:                          $box-shadow-no-offset $box-shadow-size-medium $box-shadow-color-dark !default;
+$modal-shadow:                            $box-shadow-no-offset $box-shadow-size-medium $box-shadow-spread-default $box-shadow-color-dark !default;
+$report-widget-item-shadow:               $box-shadow-no-offset $box-shadow-size-x-small $box-shadow-color-medium !default;
+$dropdown-shadow:                         $box-shadow-offset-bottom-large $box-shadow-size-x-large $box-shadow-color-medium !default;

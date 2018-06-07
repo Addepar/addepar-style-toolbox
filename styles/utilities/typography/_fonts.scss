@@ -103,3 +103,12 @@
 
 @include addepar-font-face('Tiempos Text', '#{$tiempos-text-font-folder}/TiemposTextWeb-SemiboldItalic',
   ('woff', 'eot'), $font-medium, italic);
+
+// fontawesome
+// -------------------------
+@include addepar-font-face(
+  $fontawesome,
+  '#{$fontawesome-font-folder}/#{$fontawesome}',
+  ('woff', 'eot'),
+  null
+);

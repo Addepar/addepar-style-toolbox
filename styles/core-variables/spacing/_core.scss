@@ -1,0 +1,15 @@
+//  -----------------------------------
+//  Core Variables | Spacing - Core Variables
+//  -----------------------------------
+
+//  Units
+//  -------------------------
+$spacing-unit-default:                  8px !default;
+
+$spacing-xx-small:                      $spacing-unit-default / 4 !default;  // 2px
+$spacing-x-small:                       $spacing-unit-default / 2 !default;  // 4px
+$spacing-small:                         $spacing-unit-default !default;      // 8px
+$spacing-medium:                        $spacing-unit-default * 2 !default;  // 16px
+$spacing-large:                         $spacing-unit-default * 3 !default;  // 24px
+$spacing-x-large:                       $spacing-unit-default * 4 !default;  // 32px
+$spacing-xx-large:                      $spacing-unit-default * 6 !default;  // 48px

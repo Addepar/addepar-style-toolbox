@@ -1,0 +1,14 @@
+// -------------------------
+//  Core Variables | Typography - Line Height
+// -------------------------
+
+// Are we set on this as the base line hight? do we want to use a more common ratio (1.618)?
+$line-height-base:                  1.6796875 !default; // ~22/13
+
+// $line-height-computed is used to calculate line height of inputs and defining the input base height. Might make sense to move to spacing
+$line-height-computed:              floor(($font-size-base * $line-height-base)) !default; // 21px
+
+$line-height-xx-small:              1.1 !default;
+$line-height-x-small:               1.33 !default;
+$line-height-small:                 1.5 !default;
+$line-height-medium:                $line-height-base !default;
