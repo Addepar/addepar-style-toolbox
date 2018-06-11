@@ -146,15 +146,17 @@
     padding: $et-table-cell-padding;
   }
 
-  tr.is-selectable {
-    cursor: pointer;
-
+  tr {
     &.is-selected {
       background: $et-selectable-row-selected-background;
     }
 
-    &:hover {
-      background: $et-selectable-row-hover-background;
+    &.is-selectable {
+      cursor: pointer;
+
+      &:hover {
+        background: $et-selectable-row-hover-background;
+      }
     }
   }
 }
