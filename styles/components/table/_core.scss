@@ -147,14 +147,14 @@
   }
 
   tr {
-    &.is-selected {
+    &.is-selected td {
       background: $et-selectable-row-selected-background;
     }
 
     &.is-selectable {
       cursor: pointer;
 
-      &:hover {
+      &:hover td {
         background: $et-selectable-row-hover-background;
       }
     }
