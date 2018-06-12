@@ -1,0 +1,22 @@
+//  -----------------------------------
+//  Core Variables | Timing - Timing Declarations
+//  -----------------------------------
+  //  Transition Timing
+  //  Animation Timing
+
+//  Transition Timing
+//  -------------------------
+$transition-duration-x-short:           $duration-x-short !default;
+$transition-duration-short:             $duration-short !default;
+$transition-duration-medium:            $duration-medium !default;
+$transition-duration-long:              $duration-long !default;
+$transition-duration-x-long:            $duration-x-long !default;
+
+//  Animation Timing
+//  -------------------------
+$animation-duration-short:              $duration-x-short !default;
+$animation-duration-medium:             $duration-medium !default;
+$animation-duration-long:               $duration-long !default;
+$animation-duration-x-long:             $duration-x-long !default;
+$animation-duration-xx-long:            $duration-xx-long !default;
+$animation-duration-xxx-long:           $duration-xxx-long !default;

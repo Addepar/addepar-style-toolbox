@@ -1,0 +1,32 @@
+//  -----------------------------------
+//  Core Variables | Borders - Core Variables
+//  -----------------------------------
+  //  Border Defaults
+  //  Border Styling
+  //  Border Colors
+
+// Border Widths
+$border-width-global:           1px !default;
+
+$border-width-medium:           $border-width-global !default;
+$border-width-large:            $border-width-global * 2 !default;
+$border-width-x-large:          $border-width-global * 5 !default;
+
+// Border Styles
+$border-style-default:          solid !default;
+$border-style-dashed:           dashed !default;
+
+//  Border Colors
+$border-x-light:             			$grey-x-light !default;
+$border-light:               			darken($border-x-light, $hover-color-darken) !default;
+$border-medium:              			$background-medium !default;
+$border-dark:                			$background-dark !default;
+$border-x-dark:                   $text-dark !default;
+$border-error:                    $text-error !default;
+$border-warning:                  $icon-warning !default;
+$border-success:                  $text-success !default;
+$border-focus:                    $brand-blue-gray !default;
+
+$border-color-default:            $border-x-light !default;
+$border-color-input:              $border-medium !default;
+$border-color-header:             $border-x-light !default;

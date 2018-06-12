@@ -1,0 +1,24 @@
+//  -----------------------------------
+//  Core Variables | Borders - Border Declarations
+//  -----------------------------------
+  //  Border Styling
+  //  Input Borders
+
+// Border Styling
+$border-default:                $border-width-medium $border-style-default $border-color-default !default;
+$border-default-hidden:         $border-width-medium $border-style-default transparent !default;
+$border-default-error:          $border-width-medium $border-style-default $border-error !default;
+$border-default-focus:          $border-width-medium $border-style-default $border-focus !default;
+$border-dark:                   $border-width-medium $border-style-default $border-dark !default;
+
+$border-highlight:              $border-width-large $border-style-default $border-success !default;
+$border-highlight-hidden:       $border-width-large $border-style-default transparent !default;
+
+// Input Borders
+$input-border-default:          $border-default !default;
+$input-border-hover:            $border-dark !default;
+$input-border-focus:            $border-default-focus !default;
+
+// Table Borders
+$table-border-default:          $border-width-medium $border-style-default $border-x-light !default;
+$modal-border-default:          $table-border-default !default;

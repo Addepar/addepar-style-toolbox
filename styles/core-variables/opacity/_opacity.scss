@@ -1,0 +1,93 @@
+//  -----------------------------------
+//  Core Variables | Opacity - Opacity Declarations
+//  -----------------------------------
+  //  States
+  //  Alerts
+  //  Buttons
+  //  Inputs
+  //  Lists
+  //  Tabs
+  //  Account Linking
+  //  Login
+  //  Loading Dots
+  //  Report Navigation
+  //  Report Outline
+  //  Report Widgets
+
+
+//  States
+//  -------------------------
+$zero-state-opacity:                            $opacity-x-light !default; // (currently 0.1)
+$disabled-opacity:                              $opacity-x-light !default;
+$hover-opacity:                                 $opacity-show !default;
+$placeholder-opacity:                           $opacity-medium !default;
+$overlay-opacity:                               $opacity-dark !default;
+
+//  Alerts
+//  -------------------------
+$alert-close-opacity:                           $opacity-x-light !default;
+$alert-close-hover-opacity:                     $opacity-medium !default;
+
+//  Buttons
+//  -------------------------
+$button-enabled-opacity:                        $opacity-show !default;
+$button-disabled-opacity:                       $disabled-opacity !default;
+$button-link-disabled-opacity:                  $button-disabled-opacity !default;
+$button-hover-opacity:                          $opacity-medium !default;
+
+//  Inputs
+//  -------------------------
+$input-disabled-opacity:                        $disabled-opacity !default;
+$input-active-opacity:                          $opacity-show !default;
+
+//  Lists
+//  -------------------------
+$list-add-item-opacity:                         $opacity-medium !default;
+$list-add-item-hover-opacity:                   $hover-opacity !default;
+$list-remove-item-opacity:                      $opacity-hide !default;
+$list-remove-item-hover-opacity:                $list-add-item-hover-opacity !default;
+
+//  Tabs
+//  -------------------------
+$tab-default-opacity:                           $opacity-light !default;
+$tab-hover-opacity:                             $hover-opacity !default;
+$tab-active-opacity:                            $opacity-show !default;
+
+//  Account Linking
+//  -------------------------
+$account-linking-draggable-opacity:             0.1 !default;
+
+//  Login
+//  -------------------------
+$login-back-button-opacity:                     $opacity-medium !default;
+$login-back-button-hover-opacity:               $hover-opacity !default;
+
+//  Loading Dots
+//  -------------------------
+$dot-min-opacity:                               $disabled-opacity !default;
+$dot-max-opacity:                               $opacity-show !default;
+
+//  Report Navigation
+//  -------------------------
+$report-nav-icon-opacity:                       $opacity-medium !default;
+$report-nav-icon-hover-opacity:                 $hover-opacity !default;
+$report-nav-img-opacity:                        $opacity-dark !default; // (0.65 currently)
+$report-nav-img-disabled-opacity:               $opacity-x-light !default;
+$report-nav-description-disabled-opacity:       $opacity-medium !default;
+
+//  Report Outline
+//  -------------------------
+$report-outline-remove-section-opacity:         $opacity-dark !default;
+$report-outline-remove-section-hover-opacity:   $hover-opacity !default;
+$report-outline-thumbnail-overlay-opacity:      $opacity-x-dark !default;
+$report-outline-thumbnail-overlay-img-opacity:  $opacity-medium !default;
+$report-outline-add-section-disabled-opacity:   $opacity-x-light !default;
+
+//  Report Widgets
+//  -------------------------
+$report-widget-item-disabled-opacity:           $opacity-show !default;
+$report-widget-item-handle-opacity:             $opacity-show !default;
+$report-widget-drop-zone-opacity:               $opacity-x-dark !default; // 0.8 currently
+$report-widget-table-frame-opacity:             $opacity-show !default;
+$report-widget-table-frame-icon-opacity:        $opacity-light !default;
+$report-widget-table-frame-icon-hover-opacity:  $opacity-x-dark !default;

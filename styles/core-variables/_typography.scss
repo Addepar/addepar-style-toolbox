@@ -14,26 +14,40 @@
 
 // Internal note: Refactor this!
 
-// Font Family
+//  Font Families
 // -------------------------
-$global-font-folder:                '/@addepar/style-toolbox/assets/fonts' !default;
-$univers-font-folder:               $global-font-folder !default;
-$tiempos-headline-font-folder:      $global-font-folder !default;
-$tiempos-text-font-folder:          $global-font-folder !default;
+$univers:                           'univers' !default;
+$univers-condensed:                 $univers + '-condensed' !default; // This isn't being used at all in iverson
+$univers-tabular:                   $univers + '-tabular' !default; // Used in tables and report table widget
+$tiempos:                           'tiempos' !default; //  * We are only using tiempos in 2 locations. Would probalby make sense to consolidate into a single font declaration.
+$tiempos-headline:                  $tiempos + '-headline' !default;
+$tiempos-text:                      $tiempos + '-text' !default;
+$fontawesome:                       'fontawesome' !default;
+$sans-serif-fallback:               'Helvetica Neue', 'Helvetica', Arial, sans-serif !default;
+$serif-fallback:                    Georgia, 'Times New Roman', Times, serif !default;
 
-$univers:                           'Univers-Next' !default;
-$univers-condensed:                 'Univers-Next-Condensed' !default;
-$univers-tabular:                   'Univers-Tabular' !default;
-$tiempos:                           'Tiempos Text' !default;
-$tiempos-headline:                  'Tiempos Headline' !default;
-$backup-fonts:                      'Helvetica Neue', 'Helvetica', Arial, sans-serif !default;
+$font-family-sans-serif:            $univers, $sans-serif-fallback !default;
+$font-family-serif:                 $tiempos, $serif-fallback !default;
+$font-family-condensed:             $univers-condensed, $font-family-sans-serif !default; // This isn't being used at all in iverson
+$font-family-tabular:               $univers-tabular, $font-family-sans-serif !default;
+$font-family-monospace:             Menlo, Monaco, Consolas, 'Courier New', monospace !default;
+$font-family-base:                  $font-family-sans-serif !default;
+$font-family-icons:                 $fontawesome !default;
 
-$font-family-sans-serif:  $univers, $backup-fonts !default;
-$font-family-serif:       Georgia, 'Times New Roman', Times, serif !default;
-$font-family-monospace:   Menlo, Monaco, Consolas, 'Courier New', monospace !default;
-$font-family-condensed:   $univers-condensed, $font-family-sans-serif !default;
-$font-family-tabular:     $univers-tabular, $font-family-sans-serif !default;
-$font-family-base:        $font-family-sans-serif !default;
+//  Font Folders
+// -------------------------
+$global-font-folder:                '/@addepar/style-toolbox/assets/fonts/' !default;
+$univers-font-folder:               $global-font-folder + 'univers/' !default;
+$tiempos-font-folder:               $global-font-folder + 'tiempos/' !default;
+
+$univers-default-font-folder:       $univers-font-folder + 'default' !default;
+$univers-condensed-font-folder:     $univers-font-folder + 'condensed' !default;
+$univers-tabular-font-folder:       $univers-font-folder + 'tabular' !default;
+
+$tiempos-headline-font-folder:      $tiempos-font-folder + 'headline' !default;
+$tiempos-text-font-folder:          $tiempos-font-folder + 'text' !default;
+
+$fontawesome-font-folder:           $global-font-folder + 'fontawesome' !default;
 
 
 // Font Weights

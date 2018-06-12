@@ -1,0 +1,33 @@
+// -------------------------
+//  Core Variables | Typography - Typography declarations
+// -------------------------
+
+// font-weight
+// -------------------------
+$font-thin:                         100 !default;
+$font-extra-light:                  200 !default;
+$font-light:                        300 !default;
+$font-normal:                       400 !default;
+$font-medium:                       500 !default;
+$font-semi-bold:                    600 !default;
+$font-bold:                         700 !default;
+$font-extra-bold:                   800 !default;
+$font-heavy:                        900 !default;
+
+$font-weight-xx-light:              $font-thin !default;
+$font-weight-x-light:               $font-extra-light !default;
+$font-weight-light:                 $font-light !default;
+$font-weight-regular:               $font-normal !default;
+$font-weight-bold:                  $font-medium !default;
+$font-weight-x-bold:                $font-semi-bold !default;
+$font-weight-xx-bold:               $font-bold !default;
+$font-weight-xxx-bold:              $font-extra-bold !default;
+$font-weight-xxxx-bold:             $font-heavy !default;
+
+// Letter Spacing
+// -------------------------
+$letter-spacing-base:               1px !default;
+
+$letter-spacing-small:              $letter-spacing-base / 2 !default;
+$letter-spacing-medium:             $letter-spacing-base !default;
+$letter-spacing-large:              $letter-spacing-base * 1.2 !default;

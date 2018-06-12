@@ -1,0 +1,36 @@
+//  -----------------------------------
+//  Core Variables | Z-Index - Core Variables
+//  -----------------------------------
+
+$layer-negative-bottom:       -2 !default;
+$layer-negative-top:          -1 !default;
+
+$layer-auto:                  auto !default;
+
+$layer-base-base:             0 !default;
+$layer-base-x-bottom:         10 !default;
+$layer-base-bottom:           20 !default;
+$layer-base-middle:           30 !default;
+$layer-base-top:              40 !default;
+$layer-base-x-top:            50 !default;
+
+$layer-above-base:            100 !default;
+$layer-above-x-bottom:        110 !default;
+$layer-above-bottom:          120 !default;
+$layer-above-middle:          130 !default;
+$layer-above-top:             140 !default;
+$layer-above-x-top:           150 !default;
+
+$layer-overlay-base:          200 !default;
+$layer-overlay-x-bottom:      210 !default;
+$layer-overlay-bottom:        220 !default;
+$layer-overlay-middle:        230 !default;
+$layer-overlay-top:           240 !default;
+$layer-overlay-x-top:         250 !default;
+
+$layer-top-base:              300 !default;
+$layer-top-x-bottom:          310 !default;
+$layer-top-bottom:            320 !default;
+$layer-top-middle:            330 !default;
+$layer-top-top:               340 !default;
+$layer-top-x-top:             350 !default;

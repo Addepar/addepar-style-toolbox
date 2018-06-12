@@ -1,0 +1,15 @@
+//  -----------------------------------
+//  Core Variables | Transitions - Core Variables
+//  -----------------------------------
+  //  Types
+
+//  Types
+//  -------------------------
+  // Ease-in transition for elements coming into view
+  $transition-type-show:          ease-in;
+
+  // Ease-out transition for elements exiting the screen
+  $transition-type-hide:          ease-out;
+
+  // Standard transition type for transitioning element styling
+  $transition-type-default:       ease-in-out;

@@ -1,0 +1,49 @@
+//  -----------------------------------
+//  Core Variables | Colors - Color Declarations
+//  -----------------------------------
+  //  Backgrounds
+  //  Text Colors
+  //  Icons
+  //  Borders
+
+//  Backgrounds
+// -------------------------
+$background-xx-dark:              $grey-xx-dark !default;
+$background-x-dark:               $grey-x-dark !default;
+$background-dark:                 $grey-dark !default;
+$background-medium:               $grey-medium !default;
+$background-light:                $grey-light !default;
+$background-x-light:              $grey-x-light !default;
+$background-xx-light:             $grey-xx-light !default;
+
+$background-default:              $white !default;
+$background-error:                $red-light !default;
+$background-warning:              $yellow-light !default;
+$background-success:              $green-light !default;
+$background-blue:                 $blue-light !default;
+
+$background-hover:                $blue-x-light !default;
+$background-hover-active:         $background-blue !default;
+
+//  Text Colors
+// -------------------------
+$text-dark:                       $grey-xx-dark !default;
+$text-light:                      $grey-dark !default;
+$text-inverse:                    $white !default;
+$text-error:                      $red !default;
+$text-warning:                    $yellow-dark !default;
+$text-success:                    $green !default;
+$text-blue:                       $brand-blue-gray !default;
+
+$text-disabled:                   $text-light !default;
+$text-link:                       $brand-blue-gray !default;
+$text-link-hover:                 darken($brand-blue-gray, $hover-color-darken) !default;
+
+//  Icons
+// -------------------------
+$icon-dark:                       $background-xx-dark !default;
+$icon-light:                      $text-light !default;
+$icon-inverse:                    $text-inverse !default;
+$icon-success:                    $text-success !default;
+$icon-warning:                    $yellow-medium !default;
+$icon-error:                      $text-error !default;

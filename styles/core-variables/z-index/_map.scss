@@ -1,0 +1,63 @@
+//  -----------------------------------
+//  Core Variables | Z-Index - SASS Map
+//  -----------------------------------
+  // Used for a bird's eye view of components dependent on the z-axis
+  // Try to avoid customizing these :)
+$z-layers: (
+  // Base Layer
+  'base': $layer-base-base,
+  'input': $layer-base-x-bottom,
+  'tool-container': $layer-base-middle,
+  'context-chooser': (
+    'base': $layer-base-bottom,
+    'collapse': $layer-base-top
+  ),
+  'table': (
+    'squash-column': $layer-base-middle
+  ),
+  'icons': (
+    'caret': $layer-base-x-bottom,
+    'sort': $layer-base-x-bottom,
+    'recon-expand-table': $layer-base-top,
+  ),
+  'portal': (
+    'header': $layer-base-bottom,
+    'nav': $layer-base-top
+  ),
+  'flyout-side-panel': $layer-base-top,
+  'attribute-customization-error': $layer-base-top,
+
+  // Above
+  'loading-animation': $layer-above-base,
+  'navbar': $layer-above-x-bottom,
+  'time-series': $layer-above-bottom,
+  'customer-support': $layer-above-middle,
+  // Section disclosure z-index should be larger than all items' z-index in the sam page.
+  'section-disclosure': $layer-above-x-top,
+
+  // Overlay
+  'draggable-modal': $layer-overlay-base,
+  'modal': $layer-overlay-base,
+  'popover': $layer-overlay-x-bottom,
+  'dropdown': $layer-overlay-x-bottom,
+  'tooltip': $layer-overlay-bottom,
+  'alert': $layer-overlay-middle,
+  'disabled-screen': $layer-overlay-top,
+  'global-notification': $layer-overlay-x-top,
+
+  // Reports
+  'report': (
+    'widgets': $layer-base-x-bottom,
+    'footer': $layer-base-bottom,
+    'container': $layer-base-bottom,
+    'drop-zone': $layer-base-middle,
+    'header-cover': $layer-base-top,
+    'nav': $layer-base-x-top,
+    'item-outline': $layer-above-base,
+    'text-overflow': $layer-above-x-bottom,
+    'page': (
+      'linked-cue': $layer-base-x-top,
+      'disclosure-overlay': $layer-base-x-top
+    ),
+  )
+);

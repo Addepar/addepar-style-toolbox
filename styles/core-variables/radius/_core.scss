@@ -1,0 +1,10 @@
+//  -----------------------------------
+//  Core Variables | Radius - Core Variables
+//  -----------------------------------
+$border-radius-base:                    2px !default;
+
+$border-radius-none:                    0 !default;
+$border-radius-small:                   $border-radius-base / 2 !default;
+$border-radius-medium:                  $border-radius-base !default;
+$border-radius-large:                   3px !default;
+$border-radius-circle:                  50% !default;
