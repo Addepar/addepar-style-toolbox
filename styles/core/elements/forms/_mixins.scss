@@ -1,0 +1,79 @@
+//  -----------------------------------
+//  Elements | Forms - Mixins
+//  -----------------------------------
+
+// Disabled Input Styling
+@mixin disabled-input() {
+  cursor: not-allowed;
+  pointer-events: none;
+  box-shadow: none;
+}
+
+// Input Default Styling
+@mixin input-default {
+  box-sizing: border-box;
+  background: $input-background;
+  border: $input-border;
+  padding: $input-padding;
+  transition: $input-transition;
+  line-height: $line-height-xx-small;
+  cursor: pointer;
+
+  // Placeholder Styling
+  &::placeholder {
+    color: $input-color-placeholder;
+  }
+
+  // Hover Styling
+  &:hover {
+    border: $input-border-hover;
+  }
+
+  // Focus Styling
+  &:focus {
+    outline: $input-outline-focus;
+    border: $input-border-focus;
+  }
+
+  // Disabled Styling
+  &:disabled {
+    @include disabled-input;
+    background: $input-background-disabled;
+
+    &:hover {
+      border: $input-border-disabled-hover;
+    }
+  }
+
+  // Error Styling
+  .#{$class-state-error} & {
+    border-color: $input-border-color-error;
+  }
+
+  // Warning styling
+  .#{$class-state-warning} & {
+    border-color: $input-border-color-warning;
+  }
+}
+
+@mixin checkbox-radio-defaults {
+  position: relative;
+  cursor: pointer;
+  width: $checkbox-width;
+  height: $checkbox-height;
+
+  // Focus styling
+  &:focus {
+    border: $input-border-hover;
+  }
+}
+
+// Select Dropdown Styling
+@mixin dropdown-base-styling {
+  display: none;
+  position: absolute;
+  padding: 0;
+  background: $background-default;
+  box-shadow: $dropdown-shadow;
+  z-index: $layer-base-x-top;
+}

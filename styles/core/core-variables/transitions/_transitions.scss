@@ -1,0 +1,6 @@
+//  -----------------------------------
+//  Core Variables | Transitions - Transitions Declarations
+//  -----------------------------------
+  //  Types
+  $background-transition:             background $duration-medium $transition-type-default;
+  $overlay-transition:                visibility 0s, opacity $duration-medium $transition-type-show;

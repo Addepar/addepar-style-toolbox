@@ -1,0 +1,36 @@
+//  -----------------------------------
+//  Core Variables | Shadows - Shadow Declarations
+//  -----------------------------------
+  //  Offsets
+  //  Spread
+  //  Shadows
+
+// Current Inventory
+  // https://docs.google.com/spreadsheets/d/1OQwWFE9HS2G74UK9xIBHzqjIov110wmuB4TG0VBiX1k/edit?usp=sharing
+
+//  Offsets
+//  -------------------------
+$box-shadow-no-offset:                    0 0;
+
+$box-shadow-offset-bottom-small:          0 $box-shadow-offset-small;     //  0px 3px
+$box-shadow-offset-bottom-medium:         0 $box-shadow-offset-medium;    //  0px 4px
+$box-shadow-offset-bottom-large:          0 $box-shadow-offset-large;    //  0px 4px
+
+$box-shadow-offset-top-small:             0 (-$box-shadow-offset-small);    // 0px -3px
+$box-shadow-offset-top-medium:            0 (-$box-shadow-offset-medium);   // 0px -4px
+
+//  Spread
+//  -------------------------
+$box-shadow-spread-default:               $box-shadow-size-x-small;
+
+//  Shadows
+//  -------------------------
+$default-shadow:                          $box-shadow-no-offset $box-shadow-size-medium $box-shadow-color-dark;
+$modal-shadow:                            $box-shadow-no-offset $box-shadow-size-medium $box-shadow-spread-default $box-shadow-color-dark;
+$report-widget-item-shadow:               $box-shadow-no-offset $box-shadow-size-x-small $box-shadow-color-medium;
+$dropdown-shadow:                         $box-shadow-offset-bottom-large $box-shadow-size-x-large $box-shadow-color-medium;
+
+// $dropdown-shadow:                         $box-shadow-offset-right-large $box-shadow-size-large $box-shadow-color-medium;
+// $popover-shadow:                          $dropdown-shadow;
+// $report-page-thumbnail-shadow:            $box-shadow-offset-right-x-small $box-shadow-size-medium $box-shadow-color-medium;
+// $left-nav-box-shadow:                     $box-shadow-offset-top-right-large $box-shadow-size-medium $box-shadow-color-dark;

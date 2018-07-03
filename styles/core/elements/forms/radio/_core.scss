@@ -1,0 +1,36 @@
+//  -----------------------------------
+//  Elements | Forms - Radios - Core
+//  -----------------------------------
+
+input[type='radio'] {
+  position: relative;
+  width: 1.2em;
+  height: 1.2em;
+
+  // Focus styling
+  &:focus {
+    border: $input-border-hover;
+  }
+}
+
+input[type='radio'] {
+  border-radius: $border-radius-circle;
+
+  // Checked Styling
+  &:checked {
+    border-color: $text-dark;
+
+    &:after {
+      display: block;
+      clear: both;
+      content: "";
+      position: absolute;
+      width: $input-radio-checked-icon-size;
+      height: $input-radio-checked-icon-size;
+      top: calc(50% - (#{$input-radio-checked-icon-size} / 2));
+      left: calc(50% - (#{$input-radio-checked-icon-size} / 2));
+      background: $text-dark;
+      border-radius: $border-radius-circle;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+//  -----------------------------------
+//  Elements | Forms - Variables
+//  -----------------------------------
+
+@import '../../core-variables/index';
+
+$input-padding:                       $inset-spacing-small;
+$input-background:                    $background-default;
+$input-border:                        $input-border-default;
+$input-transition:                    background 0.3s ease-out, border 0.3s ease-out;
+
+// Placeholder styling
+$input-color-placeholder:             $text-light;
+
+// Hover Styling
+$input-border-hover:                  $input-border-hover;
+
+// Focus Styling
+$input-outline-focus:                 none;
+
+// Disabled styling
+$input-background-disabled:           $background-x-light;
+$input-border-disabled-hover:         $input-border-default;
+
+// Error styling
+$input-border-color-error:            $text-error;
+
+// Warning styling
+$input-border-color-warning:          $text-warning;
+
+$select-svg-position:                 calc(100% - #{$spacing-small});
+$checkbox-svg:                        '../icons/checkbox-check.svg';
+$search-svg:                          '../icons/search-icon.svg';
+
+// Dropdown Styling
+$dropdown-list-style:                 none;
+
+$dropdown-ul-list-style:              $dropdown-list-style;
+$dropdown-ul-padding:                 0;
+$dropdown-ul-display:                 none;
+$dropdown-ul-position:                absolute;
+$dropdown-ul-left:                    0;
+$dropdown-ul-height:                  8em;
+$dropdown-ul-width:                   18em;
+$dropdown-ul-overflow:                auto;
+$dropdown-ul-box-shadow:              $dropdown-shadow;
+$dropdown-ul-z-index:                 $layer-base-x-top;
+
+// resets
+$dropdown-li-margin-bottom:           0;
+$dropdown-li-padding:                 0;
+
+// Dropdown menu
+$dropdown-a-background:               $background-default;
+$dropdown-a-display:                  block;
+$dropdown-a-color:                    $text-dark;
+$dropdown-a-padding:                  $spacing-small;
+$dropdown-a-cursor:                   pointer;
+$dropdown-a-transition:               $background-transition;
+
+// Dropdown hover styling
+$dropdown-a-hover-background:         $blue-x-light;
+
+// Dropdown title
+$dropdown-a-title-display:            block;
+$dropdown-a-title-color:              $text-dark;
+
+// Right Aligned Dropdown
+$dropdown-position-right:             0;
+$dropdown-position-left:              auto;
+
+// checkbox
+$checkbox-height:                     1.2em;
+$checkbox-width:                      $checkbox-height;
+
+// Radios
+$input-radio-checked-icon-size:       0.75em;

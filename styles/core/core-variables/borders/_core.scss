@@ -1,0 +1,16 @@
+//  -----------------------------------
+//  Core Variables | Borders - Core Variables
+//  -----------------------------------
+  // Border Widths
+  // Border Styles
+
+// Border Widths
+$border-width-global:           1px;
+
+$border-width-medium:           $border-width-global;
+$border-width-large:            $border-width-global * 2;
+$border-width-x-large:          $border-width-global * 5;
+
+// Border Styles
+$border-style-default:          solid;
+$border-style-dashed:           dashed;
