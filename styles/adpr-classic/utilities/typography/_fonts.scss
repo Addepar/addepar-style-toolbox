@@ -20,45 +20,45 @@
 // -------------------------
 
 @include addepar-font-face('Univers-Next',
-  '#{$univers-font-folder}/UniversNextW01Light', ('woff', 'ttf'), $font-light);
+  '#{$univers-font-folder}UniversNextW01Light', ('woff', 'ttf'), $font-light);
 
 @include addepar-font-face('Univers-Next',
-  '#{$univers-font-folder}/UniversNextW01Regular', ('woff', 'ttf'), $font-normal);
+  '#{$univers-font-folder}UniversNextW01Regular', ('woff', 'ttf'), $font-normal);
 
 @include addepar-font-face('Univers-Next',
-  '#{$univers-font-folder}/UniversNextW01Medium', ('woff', 'ttf'), $font-medium);
+  '#{$univers-font-folder}UniversNextW01Medium', ('woff', 'ttf'), $font-medium);
 
 @include addepar-font-face('Univers-Next',
-  '#{$univers-font-folder}/UniversNextW01Bold', ('woff', 'ttf'), $font-bold);
+  '#{$univers-font-folder}UniversNextW01Bold', ('woff', 'ttf'), $font-bold);
 
 
 //  Univers Next Condensed
 // -------------------------
 
 @include addepar-font-face('Univers-Next-Condensed',
-  '#{$univers-font-folder}/UniversNW01320CdLt', ('woff', 'ttf'), $font-light);
+  '#{$univers-font-folder}UniversNW01320CdLt', ('woff', 'ttf'), $font-light);
 
 @include addepar-font-face('Univers-Next-Condensed',
-  '#{$univers-font-folder}/UniversNW01420CdRegular', ('woff', 'ttf'), $font-normal);
+  '#{$univers-font-folder}UniversNW01420CdRegular', ('woff', 'ttf'), $font-normal);
 
 @include addepar-font-face('Univers-Next-Condensed',
-  '#{$univers-font-folder}/UniversNW01520CdMedium', ('woff', 'ttf'), $font-medium);
+  '#{$univers-font-folder}UniversNW01520CdMedium', ('woff', 'ttf'), $font-medium);
 
 @include addepar-font-face('Univers-Next-Condensed',
-  '#{$univers-font-folder}/UniversNW01620CdBold', ('woff', 'ttf'), $font-bold);
+  '#{$univers-font-folder}UniversNW01620CdBold', ('woff', 'ttf'), $font-bold);
 
 
 //  Univers Tabular Numbers
 // -------------------------
 
 @include addepar-font-face('Univers-Tabular',
-  '#{$univers-font-folder}/UniversLTLight', ('woff', 'ttf'), $font-light);
+  '#{$univers-font-folder}UniversLTLight', ('woff', 'ttf'), $font-light);
 
 @include addepar-font-face('Univers-Tabular',
-  '#{$univers-font-folder}/UniversLTRoman', ('woff', 'ttf'), $font-normal);
+  '#{$univers-font-folder}UniversLTRoman', ('woff', 'ttf'), $font-normal);
 
 @include addepar-font-face('Univers-Tabular',
-  '#{$univers-font-folder}/UniversLTBold', ('woff', 'ttf'), $font-bold);
+  '#{$univers-font-folder}UniversLTBold', ('woff', 'ttf'), $font-bold);
 
 
 // Tiempos Headline Font Files

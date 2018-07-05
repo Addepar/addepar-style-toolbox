@@ -2,33 +2,28 @@
 //  Elements | Forms - Core Styling
 //  -----------------------------------
 
+// Defines base input styling.
 %input-default {
   @include input-default;
 }
 
-//  General Input Styling
-//  -------------------------
-input,
-select,
-textarea {
-  @extend %input-default;
-}
-
-input[type='checkbox'],
-input[type='radio'],
-input[type='date'],
-select {
+%input-apearance-none {
   -webkit-appearance: none;
 }
 
-// Search styling
-//  -------------------------
-input[type='search'] {
-  background: url($search-svg) $select-svg-position center/13px no-repeat $background-default;
+// Default sizing and :focus for checkboxes and radio buttons. 
+%checkbox-and-radio-default {
+  @include checkbox-radio-defaults;
+}
 
-  &:focus {
-    background-image: none;
-  }
+//  General Input Styling
+//  -------------------------
+//  Rather than target inputs by type, this will be a generic catch-all. It
+//  won't correctly style all input types. That styling should be done at the in
+//  the UI directory
+input,
+textarea {
+  @extend %input-default;
 }
 
 //  Textarea Styling
@@ -36,50 +31,4 @@ input[type='search'] {
 textarea {
   resize: none;
   vertical-align: top;
-}
-
-//  Checkbox and Radio styling
-//  -------------------------
-input[type='checkbox'],
-input[type='radio'] {
-  position: relative;
-  width: 1.2em;
-  height: 1.2em;
-
-  // Focus styling
-  &:focus {
-    border: $input-border-hover;
-  }
-}
-
-input[type='radio'] {
-  border-radius: $border-radius-circle;
-
-  // Checked Styling
-  &:checked {
-    border-color: $text-dark;
-
-    &:after {
-      display: block;
-      clear: both;
-      content: "";
-      position: absolute;
-      width: $input-radio-checked-icon-size;
-      height: $input-radio-checked-icon-size;
-      top: calc(50% - (#{$input-radio-checked-icon-size} / 2));
-      left: calc(50% - (#{$input-radio-checked-icon-size} / 2));
-      background: $text-dark;
-      border-radius: $border-radius-circle;
-    }
-  }
-}
-
-input[type='checkbox'] {
-  background-position: center;
-  cursor: pointer;
-
-  &:checked {
-    background: url($checkbox-svg) center/12px no-repeat $background-default;
-    border: $input-border-focus;
-  }
 }

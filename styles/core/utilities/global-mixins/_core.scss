@@ -27,3 +27,15 @@
     display: flex;
     justify-content: space-between;
   }
+
+
+// Clearing
+  @mixin clear-block {
+    display: block;
+    clear: both;
+  }
+
+  @mixin content-clear-block {
+    @include clear-block;
+    content: "";
+  }

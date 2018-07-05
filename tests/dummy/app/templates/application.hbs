@@ -71,6 +71,173 @@
   </article>
 
   <article>
+    <h2>Forms</h2>
+
+    <form>
+      <div>
+        <input type="hidden" name="hidden field" value="42"/>
+        This is a form containing various fields (with some initial
+        values (defaults) set, so that you can see how input text looks
+        like without actually typing it):
+      </div>
+
+      <div class="input-group">
+        <label for="zname">Text Input - Default</label>
+        <input type="text" class="classed" required="" placeholder="Name" id="zname">
+      </div> <!--/.input-group -->
+
+      <div class="input-group">
+        <label for="disabled">Text Input - Disabled</label>
+        <input type="text" class="classed" required="" placeholder="A Disabled Input" id="disabled" disabled>
+      </div> <!--/.input-group -->
+
+      <div class="input-group error">
+        <label for="error">Text Input - Error</label>
+        <input type="text" class="error" required="" placeholder="Input with Error" id="error">
+      </div> <!--/.input-group -->
+
+      <div class="input-group warning">
+        <label for="warning">Text Input - Warning</label>
+        <input type="text" class="error" required="" placeholder="Input with Error" id="warning">
+      </div> <!--/.input-group -->
+
+      <div class="input-group">
+        <label for="select1">Select</label>
+        <select id="select1" name="select1" size="1">
+          <option>one</option>
+          <option selected>two (default)</option>
+          <option>three</option>
+        </select>
+      </div> <!--/.input-group -->
+
+      <div class="input-group">
+        <div class="select">
+          <input type="text" placeholder="Custodian">
+
+          <div class="dropdown-options">
+            <ul>
+              <li>
+                <button>G145 ∙ received ∙ associated with no firm</button>
+              </li>
+
+              <li>
+                <button>G145 ∙ received ∙ associated with no firm</button>
+              </li>
+
+              <li>
+                <button>G145 ∙ received ∙ associated with no firm</button>
+              </li>
+            </ul>
+          </div> <!-- /.dropdown-options -->
+        </div> <!--/.dropdown-->
+      </div> <!-- /.input-group -->
+
+      <div class="input-group">
+        <!-- <legend>Check those that apply</legend> -->
+        <label for="f5">Checkbox - Default</label>
+        <input id="f5" type="checkbox" name="checkbox">
+      </div> <!--/.input-group -->
+
+      <div class="input-group">
+        <label for="f6">Checkbox - Checked</label>
+        <input id="f6" type="checkbox" name="checkbox2" checked>
+      </div> <!--/.input-group -->
+
+      <div class="input-group">
+        <label for="f6">Checkbox - Checked</label>
+        <input id="f6" type="checkbox" name="checkbox2" disabled>
+      </div> <!--/.input-group -->
+
+      <div class="input-group">
+        <label for="f6">Radio Buttons - Group</label>
+        <fieldset>
+          <legend>Legend</legend>
+
+          <div class="input-group">
+            <label for="f3">
+              <input id="f3" type="radio" name="radio" value="1">
+              Radio button 1
+            </label>
+          </div> <!--/.input-group -->
+
+          <label for="f4">
+            <input id="f4" type="radio" name="radio" value="2" checked>
+            Radio button 2 (initially checked)
+          </label>
+        </fieldset>
+      </div> <!--/.input-group -->
+
+      <h3>Other types of inputs</h3>
+      <div class="input-group">
+        <label for="zemail">Email</label>
+        <input type="email" class="classed" multiple="" placeholder="email addresses" required="" id="zemail">
+      </div> <!--/.input-group -->
+
+      <div class="input-group">
+        <label for="zdob">Birthday</label>
+        <input type="date" class="classed" required="" placeholder="01/01/84" id="zdob">
+      </div> <!--/.input-group -->
+
+      <div class="input-group">
+        <label for="zage">Age</label>
+        <input type="number" class="classed" required="" min="21" max="105" placeholder="Age" id="zage">
+      </div> <!--/.input-group -->
+
+      <div class="input-group">
+        <label for="zphone">Phone</label>
+        <input type="tel" class="classed" pattern="\d{3}-\d{3}-\d{4}" placeholder="XXX-XXX-XXXX" id="zphone">
+      </div> <!--/.input-group -->
+
+      <div class="input-group">
+        <label for="zrange">Satisfaction</label>
+        <input type="range" id="zrange" min="0" max="10" step="1" list="zrangelist">
+      </div> <!--/.input-group -->
+
+      <input type="submit" value="submit">
+
+    <div><label for="f0">Reset button:
+    <input id="f0" type="reset" name="reset" value="Reset"></label></div>
+
+    <div><label for="f1">Single-line text input field: <input id="f1" name="text" size="20" value="Default text."></label></div>
+
+    <div><label for="f2">Multi-line text input field (textarea):</label><br>
+    <textarea id="f2" name="textarea" rows="2" cols="20">
+    Default text.
+    </textarea></div>
+
+    <div class="input-group">
+      <datalist id="zrangelist">
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </datalist>
+    </div> <!--/.input-group -->
+
+    <div>The following two radio buttons are inside
+    a <code>fieldset</code> element with a <code>legend</code>:</div>
+
+    <div><label for="f10">A <code>select</code> element with <code>size="1"</code>
+    (dropdown box):
+    <select id="f10" name="select1" size="1">
+    <option>one</option>
+    <option selected>two (default)</option>
+    <option>three</option>
+    </select></label></div>
+
+    <div><label for="f11">A <code>select</code> element with <code>size="3"</code>
+    (listbox):</label><br>
+    <select id="f11" name="select2" size="3">
+    <option>one</option>
+    <option selected>two (default)</option>
+    <option>three</option>
+    </select></div>
+    <div><label for="f99">Submit button:
+    <input id="f99" type="submit" name="submit" value="Just a test"></label></div>
+    </form>
+  </article>
+
+  <article>
     <h2>Lists</h2>
 
     <p>This is a paragraph before an <strong>unnumbered</strong> list (<code>ul</code>). Note that
@@ -256,157 +423,6 @@
       <cite><a href="links.html">Links Want To Be Links</a></cite>.
     </p>
   </article>
-
-<article>
-<h2>Forms</h2>
-
-<form>
-  <div>
-    <input type="hidden" name="hidden field" value="42"/>
-    This is a form containing various fields (with some initial
-    values (defaults) set, so that you can see how input text looks
-    like without actually typing it):
-  </div>
-
-  <div class="input-group">
-    <label for="zname">Text Input - Default</label>
-    <input type="text" class="classed" required="" placeholder="Name" id="zname">
-  </div> <!--/.input-group -->
-
-  <div class="input-group">
-    <label for="disabled">Text Input - Disabled</label>
-    <input type="text" class="classed" required="" placeholder="A Disabled Input" id="disabled" disabled>
-  </div> <!--/.input-group -->
-
-  <div class="input-group error">
-    <label for="error">Text Input - Error</label>
-    <input type="text" class="error" required="" placeholder="Input with Error" id="error">
-  </div> <!--/.input-group -->
-
-  <div class="input-group warning">
-    <label for="warning">Text Input - Warning</label>
-    <input type="text" class="error" required="" placeholder="Input with Error" id="warning">
-  </div> <!--/.input-group -->
-
-  <div class="input-group">
-    <label for="select1">Select</label>
-    <select id="select1" name="select1" size="1">
-      <option>one</option>
-      <option selected>two (default)</option>
-      <option>three</option>
-    </select>
-  </div> <!--/.input-group -->
-
-  <div class="input-group">
-    <!-- <legend>Check those that apply</legend> -->
-    <label for="f5">Checkbox - Default</label>
-    <input id="f5" type="checkbox" name="checkbox">
-  </div> <!--/.input-group -->
-
-  <div class="input-group">
-    <label for="f6">Checkbox - Checked</label>
-    <input id="f6" type="checkbox" name="checkbox2" checked>
-  </div> <!--/.input-group -->
-
-  <div class="input-group">
-    <label for="f6">Checkbox - Checked</label>
-    <input id="f6" type="checkbox" name="checkbox2" disabled>
-  </div> <!--/.input-group -->
-
-  <div class="input-group">
-    <label for="f6">Radio Buttons - Group</label>
-    <fieldset>
-      <legend>Legend</legend>
-
-      <div class="input-group">
-        <label for="f3">
-          <input id="f3" type="radio" name="radio" value="1" checked>
-          Radio button 1
-        </label>
-      </div> <!--/.input-group -->
-
-      <label for="f4">
-        <input id="f4" type="radio" name="radio" value="2">
-        Radio button 2 (initially checked)
-      </label>
-    </fieldset>
-  </div> <!--/.input-group -->
-
-  <h3>Other types of inputs</h3>
-  <div class="input-group">
-    <label for="zemail">Email</label>
-    <input type="email" class="classed" multiple="" placeholder="email addresses" required="" id="zemail">
-  </div> <!--/.input-group -->
-
-  <div class="input-group">
-    <label for="zdob">Birthday</label>
-    <input type="date" class="classed" required="" placeholder="01/01/84" id="zdob">
-  </div> <!--/.input-group -->
-
-  <div class="input-group">
-    <label for="zage">Age</label>
-    <input type="number" class="classed" required="" min="21" max="105" placeholder="Age" id="zage">
-  </div> <!--/.input-group -->
-
-  <div class="input-group">
-    <label for="zphone">Phone</label>
-    <input type="tel" class="classed" pattern="\d{3}-\d{3}-\d{4}" placeholder="XXX-XXX-XXXX" id="zphone">
-  </div> <!--/.input-group -->
-
-  <div class="input-group">
-    <label for="zrange">Satisfaction</label>
-    <input type="range" id="zrange" min="0" max="10" step="1" list="zrangelist">
-  </div> <!--/.input-group -->
-
-  <input type="submit" value="submit">
-
-<div><label for="f0">Reset button:
-<input id="f0" type="reset" name="reset" value="Reset"></label></div>
-
-<div><label for="f1">Single-line text input field: <input id="f1" name="text" size="20" value="Default text."></label></div>
-
-<div><label for="f2">Multi-line text input field (textarea):</label><br>
-<textarea id="f2" name="textarea" rows="2" cols="20">
-Default text.
-</textarea></div>
-
-<div class="input-group">
-  <datalist id="zrangelist">
-    <option value="7">7</option>
-    <option value="8">8</option>
-    <option value="9">9</option>
-    <option value="10">10</option>
-  </datalist>
-</div> <!--/.input-group -->
-
-<div>The following two radio buttons are inside
-a <code>fieldset</code> element with a <code>legend</code>:</div>
-
-<fieldset>
-<legend>Legend</legend>
-<div><label for="f3"><input id="f3" type="radio" name="radio" value="1"> Radio button 1</label></div>
-<div><label for="f4"><input id="f4" type="radio" name="radio" value="2" checked> Radio button 2 (initially checked)</label></div>
-</fieldset>
-
-<div><label for="f10">A <code>select</code> element with <code>size="1"</code>
-(dropdown box):
-<select id="f10" name="select1" size="1">
-<option>one</option>
-<option selected>two (default)</option>
-<option>three</option>
-</select></label></div>
-
-<div><label for="f11">A <code>select</code> element with <code>size="3"</code>
-(listbox):</label><br>
-<select id="f11" name="select2" size="3">
-<option>one</option>
-<option selected>two (default)</option>
-<option>three</option>
-</select></div>
-<div><label for="f99">Submit button:
-<input id="f99" type="submit" name="submit" value="Just a test"></label></div>
-</form>
-</article>
 
 <article>
 <h2>Tables</h2>

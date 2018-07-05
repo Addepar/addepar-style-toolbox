@@ -1,5 +1,5 @@
 // -------------------------
-//  Core Variables | Typography - Font Variables
+//  Utilties | Typography - Font Declarations - Variables
 // -------------------------
   //  Font Families
   //  Font Folders
@@ -30,8 +30,9 @@ $font-family-icons:                 $fontawesome;
 // We currently don't have any sort of subdirectories in the fonts directory. Would most likely make sense to add/clean-up font directories.
 // If we decide not to add directories to /fonts, we can remove everything except the global folder.
 
-$global-font-folder:                '../fonts/';
+$global-font-folder:                '/@addepar/style-toolbox/assets/fonts/';
 $univers-font-folder:               $global-font-folder + 'univers/';
+// $univers-font-folder:               $global-font-folder;
 $tiempos-font-folder:               $global-font-folder + 'tiempos/';
 $fontawesome-font-folder:           $global-font-folder + 'fontawesome';
 
@@ -42,4 +43,4 @@ $univers-tabular-font-folder:       $univers-font-folder + 'tabular';
 $tiempos-headline-font-folder:      $tiempos-font-folder + 'headline';
 $tiempos-text-font-folder:          $tiempos-font-folder + 'text';
 
-$fontawesome-regular-font-folder:   $fontawesome-font-folder + 'regular';
+$fontawesome-regular-font-folder:   $fontawesome-font-folder;

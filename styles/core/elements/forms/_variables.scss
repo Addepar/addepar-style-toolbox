@@ -29,8 +29,6 @@ $input-border-color-error:            $text-error;
 $input-border-color-warning:          $text-warning;
 
 $select-svg-position:                 calc(100% - #{$spacing-small});
-$checkbox-svg:                        '../icons/checkbox-check.svg';
-$search-svg:                          '../icons/search-icon.svg';
 
 // Dropdown Styling
 $dropdown-list-style:                 none;
@@ -69,9 +67,9 @@ $dropdown-a-title-color:              $text-dark;
 $dropdown-position-right:             0;
 $dropdown-position-left:              auto;
 
-// checkbox
-$checkbox-height:                     1.2em;
-$checkbox-width:                      $checkbox-height;
+// Square Input (radio/checkbox)
+$input-squre-size:                    1.2em;
+
 
 // Radios
 $input-radio-checked-icon-size:       0.75em;

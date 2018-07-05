@@ -2,21 +2,10 @@
 //  Elements | Forms - Checkbox - Variables
 //  -----------------------------------
 
-$checkbox-size: 14px;
-$checkbox-background-color: $background-white;
-$checkbox-border-style: $background-medium solid $global-border-size;
-$checkbox-active-border-style: $background-medium-dark solid $global-border-size;
-$checkbox-outline: none;
+$checkbox-height:                     1.2em;
+$checkbox-width:                      $checkbox-height;
+$checkbox-background-position:        center;
+$checkbox-svg:                        '/@addepar/style-toolbox/assets/images/checkbox-check.svg';
 
-$checkmark-opacity: 0.75;
-$checkmark-size: 13px;
-$checkmark-offset-x: 4px;
-$checkmark-offset-y: -2px;
-$checkmark-image-url: '/@addepar/style-toolbox/assets/images/checkmark.svg';
-
-// Collapse
-// -----------------------------------------------------------------------------
-
-$collapse-color: $text-light;
-$collapse-color-active: $text-dark;
-$collapse-padding: $spacing-default;
+$checkbox-checked-background:         url($checkbox-svg) center/12px no-repeat $background-default;
+$checkbox-checked-border:             $input-border-focus;

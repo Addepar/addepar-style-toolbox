@@ -1,0 +1,11 @@
+//  -----------------------------------
+//  Elements | Forms - Search Input - Core Styling
+//  -----------------------------------
+
+input[type='search'] {
+  background: url($search-svg) $select-svg-position center/13px no-repeat $background-default;
+
+  &:focus {
+    background-image: none;
+  }
+}

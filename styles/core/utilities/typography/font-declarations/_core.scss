@@ -1,6 +1,8 @@
 //  -----------------------------------
-//  Typography
+//  Utilties | Typography - Font Declarations - Core
 //  -----------------------------------
+
+@import '../../../core-variables/index';
 
 // Font declarations
 // -------------------------
@@ -107,4 +109,13 @@
       '#{$tiempos-headline-font-folder}/#{$tiempos-headline}-light',
       ('woff', 'eot'),
       $font-weight-light
+    );
+
+    // Fontawesome
+    // -------------------------
+    @include addepar-font-face(
+      $fontawesome,
+      '#{$fontawesome-font-folder}/#{$fontawesome}-webfont',
+      ('woff', 'eot'),
+      null
     );

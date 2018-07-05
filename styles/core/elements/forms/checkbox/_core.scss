@@ -1,10 +1,15 @@
+//  -----------------------------------
+//  Elements | Forms - Checkbox - Core
+//  -----------------------------------
+@import '../core';
+
 %checkbox-default {
-  background-position: center;
-  @include checkbox-radio-defaults;
+  background-position: $checkbox-background-position;
+  @extend %checkbox-and-radio-default;
 
   &:checked {
-    background: url($checkbox-svg) center/12px no-repeat $background-default;
-    border: $input-border-focus;
+    background: $checkbox-checked-background;
+    border: $checkbox-checked-border;
   }
 }
 

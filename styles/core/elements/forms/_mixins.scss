@@ -59,8 +59,10 @@
 @mixin checkbox-radio-defaults {
   position: relative;
   cursor: pointer;
-  width: $checkbox-width;
-  height: $checkbox-height;
+  width: $input-squre-size;
+  height: $input-squre-size;
+  margin: 0 $spacing-x-small;
+  @extend %input-apearance-none;
 
   // Focus styling
   &:focus {
