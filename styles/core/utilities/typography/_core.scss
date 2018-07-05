@@ -3,20 +3,19 @@
 //  -----------------------------------
 
 %h1 {
-  font-family: $tiempos-headline;
   @include header-styling ($font-size-h1, $font-weight-light, $line-height-x-small)
 }
 
 %h2 {
-  @include header-styling ($font-size-h2, $font-weight-regular, $line-height-x-small)
+  @include header-styling ($font-size-h2, $font-weight-bold, $line-height-x-small)
 }
 
 %h3 {
-  @include header-styling ($font-size-h3, $font-weight-regular, $line-height-small)
+  @include header-styling ($font-size-h3, $font-weight-bold, $line-height-small)
 }
 
 %h4 {
-  @include header-styling ($font-size-h4, $font-weight-regular, $line-height-small)
+  @include header-styling ($font-size-h4, $font-weight-bold, $line-height-small)
 }
 
 %h5 {
@@ -25,6 +24,8 @@
 
 %h6 {
   @include header-styling ($font-size-h6, $font-weight-bold, $line-height-small)
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h1 {

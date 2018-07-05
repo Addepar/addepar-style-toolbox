@@ -13,25 +13,25 @@
 
 // Font Sizing
 // -------------------------
-$font-size-base:                    0.85rem;        // 13px
+$font-size-base-unit:               14px;        // 14px
 
-$font-size-xxx-small:               0.5rem;           // 8px
-$font-size-xx-small:                0.625rem;         // 10px
-$font-size-xx-small:                0.6875rem;        // 11px
-$font-size-small:                   0.75rem;          // 12px
-$font-size-medium:                  $font-size-base;  // 13px
-$font-size-large:                   0.875rem;         // 14px
-$font-size-x-large:                 1.0625rem;        // 17px
-$font-size-xx-large:                1.375rem;         // 22px
+$font-size-xx-small:                floor(($font-size-base-unit * .75));  // 10px
+$font-size-x-small:                floor(($font-size-base-unit * .8));   // 11px
+$font-size-small:                   floor(($font-size-base-unit * .95));  // 13px
+$font-size-medium:                  $font-size-base-unit;                 // 14px
+$font-size-large:                   floor(($font-size-base-unit * 1.2));  // 16px
+$font-size-x-large:                 floor(($font-size-base-unit * 1.3));  // 18px
+$font-size-xx-large:                floor(($font-size-base-unit * 2.75)); // 38px
+
 $font-size-xxx-large:               1.6875rem;        // 27px
 $font-size-xxxx-large:              2.0625rem;        // 33px
 $font-size-xxxxx-large:             3rem;             // 48px
 
-$font-size-h1:                      $font-size-xxxx-large;
-$font-size-h2:                      $font-size-xxx-large;
-$font-size-h3:                      $font-size-xx-large;
-$font-size-h4:                      $font-size-x-large;
+$font-size-h1:                      $font-size-xx-large;
+$font-size-h2:                      $font-size-x-large;
+$font-size-h3:                      $font-size-large;
+$font-size-h4:                      $font-size-large;
 $font-size-h5:                      $font-size-medium;
-$font-size-h6:                      $font-size-small;
+$font-size-h6:                      $font-size-x-small;
 
 $font-size-headline:                $font-size-xxxxx-large;
