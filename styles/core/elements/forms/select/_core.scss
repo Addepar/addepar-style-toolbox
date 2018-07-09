@@ -10,9 +10,9 @@
 %select {
   @extend %input-default;
   @extend %input-apearance-none;
-  border-radius: 0;
-  padding-right: $spacing-x-large;
-  background: url('/@addepar/style-toolbox/assets/images/select-arrow.svg') calc(100% - 12px) center / 9px no-repeat;
+  border-radius: $select-border-radius;
+  padding-right: $select-padding-r;
+  background: $select-bg;
 }
 
 select {

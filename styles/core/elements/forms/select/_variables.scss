@@ -1,0 +1,11 @@
+//  -----------------------------------
+//  Elements | Forms - Select - Variables
+//  -----------------------------------
+
+$select-border-radius:              0;
+$select-padding-r:                  $spacing-x-large;
+
+$select-bg-image:                   url('/@addepar/style-toolbox/assets/images/select-arrow.svg');
+$select-bg-image-location:          calc(100% - 12px) center;
+$select-bg-image-size:              9px;
+$select-bg:                         $select-bg-image $select-bg-image-location / $select-bg-image-size no-repeat;
