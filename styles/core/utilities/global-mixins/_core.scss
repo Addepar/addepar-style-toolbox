@@ -1,8 +1,11 @@
 //  -----------------------------------
 //  Utilities | Global Mixins - Core
 //  -----------------------------------
+  // Align Items with Flex
+  // Clearing
 
 // Align Items with Flex
+// -------------------------
   // center items vertically
   @mixin flex-align-center {
     display: flex;
@@ -30,6 +33,7 @@
 
 
 // Clearing
+// -------------------------
   @mixin clear-block {
     display: block;
     clear: both;
