@@ -1,0 +1,61 @@
+//  -----------------------------------
+//  Elements | Inputs - Core Styling
+//  -----------------------------------
+
+%adde-input-default {
+  background: $input-background;
+  border: $input-border;
+  padding: $input-padding;
+  transition: $input-transition;
+  line-height: $line-height-xx-small;
+
+  // Placeholder Styling
+  &::placeholder {
+    color: $input-color-placeholder;
+  }
+
+  // Hover Styling
+  &:hover {
+    border: $input-border-hover;
+  }
+
+  // Focus Styling
+  &:focus {
+    border: $input-border-focus;
+  }
+
+  // Disabled Styling
+  &:disabled {
+    background: $input-background-disabled;
+
+    &:hover {
+      border: $input-border-disabled-hover;
+    }
+  }
+
+  // Error Styling
+  .#{$class-state-error} & {
+    border-color: $input-border-color-error;
+  }
+
+  // Warning styling
+  .#{$class-state-warning} & {
+    border-color: $input-border-color-warning;
+  }
+}
+
+%adde-checkbox-radio-defaults {
+  width: $input-squre-size;
+  height: $input-squre-size;
+  margin: 0 $spacing-x-small;
+
+  // Focus styling
+  &:focus {
+    border: $input-border-hover;
+  }
+}
+
+input,
+textarea {
+  @extend %adde-input-default;
+}

@@ -1,0 +1,37 @@
+//  -----------------------------------
+//  Core Variables | Typography - Font Sizing Variables
+//  -----------------------------------
+
+// New proposed sizes from Chin Wei
+// 38px
+// 18px
+// 16px
+// 14px
+// 13px
+// 11px
+// 10px -- always uppercase
+
+// Font Sizing
+// -------------------------
+$font-size-base-unit:               14px;        // 14px
+
+$font-size-xx-small:                floor(($font-size-base-unit * .75));  // 10px
+$font-size-x-small:                floor(($font-size-base-unit * .8));   // 11px
+$font-size-small:                   floor(($font-size-base-unit * .95));  // 13px
+$font-size-medium:                  $font-size-base-unit;                 // 14px
+$font-size-large:                   floor(($font-size-base-unit * 1.2));  // 16px
+$font-size-x-large:                 floor(($font-size-base-unit * 1.3));  // 18px
+$font-size-xx-large:                floor(($font-size-base-unit * 2.75)); // 38px
+
+$font-size-xxx-large:               1.6875rem;        // 27px
+$font-size-xxxx-large:              2.0625rem;        // 33px
+$font-size-xxxxx-large:             3rem;             // 48px
+
+$font-size-h1:                      $font-size-xx-large;
+$font-size-h2:                      $font-size-x-large;
+$font-size-h3:                      $font-size-large;
+$font-size-h4:                      $font-size-large;
+$font-size-h5:                      $font-size-medium;
+$font-size-h6:                      $font-size-x-small;
+
+$font-size-headline:                $font-size-xxxxx-large;

@@ -1,0 +1,14 @@
+//  -----------------------------------
+//  Elements | Inputs - Select - Core Styling
+//  -----------------------------------
+
+%adde-select-default {
+  border-radius: $select-border-radius;
+  padding-right: $select-padding-r;
+  background: $select-bg;
+}
+
+select {
+  @extend %adde-input-default;
+  @extend %adde-select-default;
+}

@@ -1,0 +1,40 @@
+//  -----------------------------------
+//  Components | Forms - Select - Variables
+//  -----------------------------------
+
+// Dropdown Styling
+$dropdown-list-style:                 none;
+
+$dropdown-ul-list-style:              $dropdown-list-style;
+$dropdown-ul-padding:                 0;
+$dropdown-ul-display:                 none;
+$dropdown-ul-position:                absolute;
+$dropdown-ul-left:                    0;
+$dropdown-ul-height:                  8em;
+$dropdown-ul-width:                   18em;
+$dropdown-ul-overflow:                auto;
+$dropdown-ul-box-shadow:              $dropdown-shadow;
+$dropdown-ul-z-index:                 $layer-base-x-top;
+
+// resets
+$dropdown-li-margin-bottom:           0;
+$dropdown-li-padding:                 0;
+
+// Dropdown menu
+$dropdown-a-background:               $background-default;
+$dropdown-a-display:                  block;
+$dropdown-a-color:                    $text-dark;
+$dropdown-a-padding:                  $spacing-small;
+$dropdown-a-cursor:                   pointer;
+$dropdown-a-transition:               $background-transition;
+
+// Dropdown hover styling
+$dropdown-a-hover-background:         $blue-x-light;
+
+// Dropdown title
+$dropdown-a-title-display:            block;
+$dropdown-a-title-color:              $text-dark;
+
+// Right Aligned Dropdown
+$dropdown-position-right:             0;
+$dropdown-position-left:              auto;

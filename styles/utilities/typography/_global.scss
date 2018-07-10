@@ -1,9 +1,0 @@
-// Global Typography Resets
-// -------------------------
-
-html,
-body {
-  @include font-settings();
-
-  font-family: $font-family-base;
-}

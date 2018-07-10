@@ -1,9 +1,5 @@
-@import 'core-variables/index';
+// Core Styling
+@import 'core/index';
 
-@import 'utilities/index';
-
-@import 'layout/index';
-
-@import 'elements/index';
-
-@import 'components/index';
+// Addepar Classic UI
+@import 'adpr-classic/index';

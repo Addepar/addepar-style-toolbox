@@ -1,0 +1,12 @@
+// Caution: do not change the orders here.
+
+@import '../../core/core-variables/index';
+
+// Color should be first since it is likely they are used in other variables
+@import 'colors';
+
+@import 'borders';
+@import 'opacity';
+@import 'spacing';
+@import 'typography';
+@import 'z-index';

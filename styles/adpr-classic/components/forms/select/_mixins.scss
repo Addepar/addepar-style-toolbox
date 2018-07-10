@@ -1,0 +1,13 @@
+//  -----------------------------------
+//  Components | Forms - Select - Mixins
+//  -----------------------------------
+
+// Select Dropdown Styling
+@mixin dropdown-base-styling {
+  display: none;
+  position: absolute;
+  padding: 0;
+  background: $background-default;
+  box-shadow: $dropdown-shadow;
+  z-index: $layer-base-x-top;
+}

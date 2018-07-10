@@ -1,0 +1,12 @@
+//  -----------------------------------
+//  Elements | Forms - Checkbox - Core
+//  -----------------------------------
+@import '../core';
+
+%checkbox-default {
+  @extend %checkbox-and-radio-default;
+}
+
+input[type='checkbox'] {
+  @extend %checkbox-default;
+}

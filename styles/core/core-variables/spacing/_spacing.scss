@@ -1,0 +1,58 @@
+//  -----------------------------------
+//  Core Variables | Spacing - Spacing Declarations
+//  -----------------------------------
+  //  Inset Spacing
+  //  Squished-Inset Spacing
+  //  Stretched-Inset Spacing
+  //  Stacked Spacing
+  //  Inline Spacing
+
+//  Inset Spacing
+//  -------------------------
+$inset-spacing-xx-small:                $spacing-xx-small;
+$inset-spacing-x-small:                 $spacing-x-small;
+$inset-spacing-small:                   $spacing-small;
+$inset-spacing-medium:                  $spacing-medium;
+$inset-spacing-large:                   $spacing-large;
+$inset-spacing-x-large:                 $spacing-x-large;
+$inset-spacing-xx-large:                $spacing-xx-large;
+
+//  Squished-Inset Spacing
+//  -------------------------
+$squished-inset-spacing-xx-small:       $spacing-xx-small $spacing-x-small;
+$squished-inset-spacing-x-small:        $spacing-x-small $spacing-small;
+$squished-inset-spacing-small:          $spacing-small $spacing-medium;
+$squished-inset-spacing-medium:         $spacing-medium $spacing-large;
+$squished-inset-spacing-large:          $spacing-large $spacing-x-large;
+$squished-inset-spacing-x-large:        $spacing-x-large $spacing-xx-large;
+$squished-inset-spacing-xx-large:       $spacing-xx-large ($spacing-xx-large * 2);
+
+//  Stretched-Inset Spacing
+//  -------------------------
+$stretched-inset-spacing-xx-small:      $spacing-x-small $spacing-xx-small;
+$stretched-inset-spacing-x-small:       $spacing-small $spacing-x-small;
+$stretched-inset-spacing-small:         $spacing-medium $spacing-small;
+$stretched-inset-spacing-medium:        $spacing-large $spacing-medium;
+$stretched-inset-spacing-large:         $spacing-x-large $spacing-large;
+$stretched-inset-spacing-x-large:       $spacing-xx-large $spacing-x-large;
+$stretched-inset-spacing-xx-large:      ($spacing-xx-large * 2) $spacing-xx-large;
+
+//  Stacked Spacing
+//  -------------------------
+$stacked-spacing-xx-small:              $spacing-xx-small 0;
+$stacked-spacing-x-small:               $spacing-x-small 0;
+$stacked-spacing-small:                 $spacing-small 0;
+$stacked-spacing-medium:                $spacing-medium 0;
+$stacked-spacing-large:                 $spacing-large 0;
+$stacked-spacing-x-large:               $spacing-x-large 0;
+$stacked-spacing-xx-large:              $spacing-xx-large 0;
+
+//  Inline Spacing
+//  -------------------------
+$inline-spacing-xx-small:               0 $spacing-xx-small;
+$inline-spacing-x-small:                0 $spacing-x-small;
+$inline-spacing-small:                  0 $spacing-small;
+$inline-spacing-medium:                 0 $spacing-medium;
+$inline-spacing-large:                  0 $spacing-large;
+$inline-spacing-x-large:                0 $spacing-x-large;
+$inline-spacing-xx-large:               0 $spacing-xx-large;

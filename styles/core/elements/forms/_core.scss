@@ -1,0 +1,47 @@
+//  -----------------------------------
+//  Elements | Forms - Core Styling
+//  -----------------------------------
+
+// Defines base input styling.
+%input-default {
+  box-sizing: border-box;
+  cursor: pointer;
+
+  // Focus Styling
+  &:focus {
+    outline: $input-outline-focus;
+  }
+
+  // Disabled Styling
+  &:disabled {
+    @include disabled-input;
+  }
+}
+
+%input-apearance-none {
+  -webkit-appearance: none;
+}
+
+// Default sizing and :focus for checkboxes and radio buttons.
+%checkbox-and-radio-default {
+  @extend %input-apearance-none;
+  position: relative;
+  cursor: pointer;
+}
+
+//  General Input Styling
+//  -------------------------
+//  Rather than target inputs by type, this will be a generic catch-all. It
+//  won't correctly style all input types. That styling should be done at the in
+//  the UI directory
+input,
+textarea {
+  @extend %input-default;
+}
+
+//  Textarea Styling
+//  -------------------------
+textarea {
+  resize: none;
+  vertical-align: top;
+}

@@ -1,0 +1,10 @@
+// Global Typography Resets
+// -------------------------
+
+html,
+body {
+  @include font-settings();
+  color: $text-dark;
+  font-family: $font-family-base;
+  font-size: $font-size-base-unit;
+}

@@ -1,0 +1,15 @@
+//  -----------------------------------
+//  Elements | Inputs - Select - Core
+//  -----------------------------------
+
+%adde-radio-default:checked {
+  border-color: $text-dark;
+
+  &:after {
+    background: $radio-button-checked-after-background;
+  }
+}
+
+input[type="radio"] {
+  @extend %adde-radio-default;
+}

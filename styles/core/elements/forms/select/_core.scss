@@ -1,0 +1,17 @@
+//  -----------------------------------
+//  Elements | Forms - Select - Core
+//  -----------------------------------
+
+@import '../core';
+
+//  Browser Default Select styling
+//  -------------------------
+
+%select-default {
+  @extend %input-default;
+  @extend %input-apearance-none;
+}
+
+select {
+  @extend %select-default;
+}
