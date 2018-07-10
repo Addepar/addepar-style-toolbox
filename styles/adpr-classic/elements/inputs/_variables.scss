@@ -11,3 +11,25 @@ $input-border-width:                    $global-border-size !default;
 
 $input-border-color:                    $border-input !default;
 $input-error-border-color:              $border-red !default;
+
+// New design system Variables
+$input-padding:                       $inset-spacing-small;
+$input-background:                    $background-default;
+$input-border:                        $input-border-default;
+$input-transition:                    background 0.3s ease-out, border 0.3s ease-out;
+
+// Placeholder styling
+$input-color-placeholder:             $text-light;
+
+// Hover Styling
+$input-border-hover:                  $input-border-hover;
+
+// Disabled styling
+$input-background-disabled:           $background-x-light;
+$input-border-disabled-hover:         $input-border-default;
+
+// Error styling
+$input-border-color-error:            $text-error;
+
+// Warning styling
+$input-border-color-warning:          $text-warning;

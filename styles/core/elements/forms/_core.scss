@@ -4,16 +4,29 @@
 
 // Defines base input styling.
 %input-default {
-  @include input-default;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  // Focus Styling
+  &:focus {
+    outline: $input-outline-focus;
+  }
+
+  // Disabled Styling
+  &:disabled {
+    @include disabled-input;
+  }
 }
 
 %input-apearance-none {
   -webkit-appearance: none;
 }
 
-// Default sizing and :focus for checkboxes and radio buttons. 
+// Default sizing and :focus for checkboxes and radio buttons.
 %checkbox-and-radio-default {
-  @include checkbox-radio-defaults;
+  @extend %input-apearance-none;
+  position: relative;
+  cursor: pointer;
 }
 
 //  General Input Styling

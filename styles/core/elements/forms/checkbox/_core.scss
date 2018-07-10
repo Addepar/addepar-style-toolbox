@@ -4,13 +4,7 @@
 @import '../core';
 
 %checkbox-default {
-  background-position: $checkbox-background-position;
   @extend %checkbox-and-radio-default;
-
-  &:checked {
-    background: $checkbox-checked-background;
-    border: $checkbox-checked-border;
-  }
 }
 
 input[type='checkbox'] {

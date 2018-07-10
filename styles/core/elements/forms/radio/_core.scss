@@ -9,19 +9,14 @@
   @extend %checkbox-and-radio-default;
 
   // Checked Styling
-  &:checked {
-    border-color: $text-dark;
-
-    &:after {
-      @include content-clear-block;
-      position: absolute;
-      width: $radio-button-checked-after-width;
-      height: $radio-button-checked-after-height;
-      top: $radio-button-checked-after-top;
-      left: $radio-button-checked-after-left;
-      background: $radio-button-checked-after-background;
-      border-radius: $radio-button-checked-border-border-radius;
-    }
+  &:checked:after {
+    @include content-clear-block;
+    border-radius: $radio-button-border-radius;
+    position: absolute;
+    width: $radio-button-checked-after-width;
+    height: $radio-button-checked-after-height;
+    top: $radio-button-checked-after-top;
+    left: $radio-button-checked-after-left;
   }
 }
 

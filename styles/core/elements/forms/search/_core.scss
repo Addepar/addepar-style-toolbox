@@ -3,7 +3,7 @@
 //  -----------------------------------
 
 input[type='search'] {
-  background: url($search-svg) $select-svg-position center/13px no-repeat $background-default;
+  background: $search-background;
 
   &:focus {
     background-image: none;

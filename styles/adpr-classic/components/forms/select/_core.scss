@@ -1,13 +1,14 @@
 //  -----------------------------------
 //  Components | Forms - Select - Core
 //  -----------------------------------
+@import '../../../../core/elements/forms/select/index';
 
 $select-padding:      0 26px 0 0;
 
 //  Select styling
 //  -------------------------
 .select {
-  @extend %select;
+  @extend %select-default;
   padding: $select-padding;
   position: relative;
 

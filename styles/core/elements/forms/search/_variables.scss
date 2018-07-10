@@ -1,1 +1,8 @@
-$search-svg:                          '/@addepar/style-toolbox/assets/images/search-icon.svg';
+//  -----------------------------------
+//  Elements | Forms - Search Input - Seach Input
+//  -----------------------------------
+
+$search-svg:                          url('/@addepar/style-toolbox/assets/images/search-icon.svg');
+$search-svg-position:                 $select-svg-position center;
+$search-svg-size:                     13px;
+$search-background:                   $search-svg $select-svg-position / $search-svg-size no-repeat $background-default

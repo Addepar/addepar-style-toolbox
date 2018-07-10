@@ -2,14 +2,9 @@
 //  Elements | Forms - Radios - Variables
 //  -----------------------------------
 
+$input-radio-checked-icon-size:               0.75em;
 $radio-button-border-radius:                  $border-radius-circle;
-
-$radio-button-checked-border-color:           $text-dark;
-
-$radio-button-checked-after-position:         absolute;
 $radio-button-checked-after-width:            $input-radio-checked-icon-size;
 $radio-button-checked-after-height:           $radio-button-checked-after-width;
 $radio-button-checked-after-top:              calc(50% - (#{$radio-button-checked-after-height} / 2));
 $radio-button-checked-after-left:             calc(50% - (#{$radio-button-checked-after-width} / 2));
-$radio-button-checked-after-background:       $radio-button-checked-border-color;
-$radio-button-checked-border-border-radius:   $border-radius-circle;

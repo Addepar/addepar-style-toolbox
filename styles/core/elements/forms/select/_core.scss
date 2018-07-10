@@ -7,14 +7,11 @@
 //  Browser Default Select styling
 //  -------------------------
 
-%select {
+%select-default {
   @extend %input-default;
   @extend %input-apearance-none;
-  border-radius: $select-border-radius;
-  padding-right: $select-padding-r;
-  background: $select-bg;
 }
 
 select {
-  @extend %select;
+  @extend %select-default;
 }
