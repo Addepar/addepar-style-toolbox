@@ -1,0 +1,26 @@
+//  -----------------------------------
+//  Elements | Forms - Radios - Core
+//  -----------------------------------
+
+@import '../../../utilities/global-mixins/index';
+
+%default-radio {
+  border-radius: $radio-button-border-radius;
+  @extend %input-apearance-none;
+  @extend %input-default;
+
+  // Checked Styling
+  &:checked:after {
+    @include content-clear-block;
+    position: absolute;
+    width: $radio-button-checked-after-width;
+    height: $radio-button-checked-after-height;
+    top: $radio-button-checked-after-top;
+    left: $radio-button-checked-after-left;
+    border-radius: $radio-button-border-radius;
+  }
+}
+
+input[type='radio'] {
+  @extend %default-radio;
+}

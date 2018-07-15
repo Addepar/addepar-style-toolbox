@@ -1,0 +1,19 @@
+//  -----------------------------------
+//  Elements | Forms - Variables
+//  -----------------------------------
+
+// Default Input Styling
+$input-default-box-sizing:                border-box;
+$input-default-position:                  relative;
+$input-default-cursor:                    pointer;
+
+// Focus Styling
+$input-default-focus-outline:             none;
+
+// Square Input (radio/checkbox)
+$input-squre-size:                        1.2em;
+
+// Disabled Input
+$input-default-disabled-cursor:           not-allowed;
+$input-default-disabled-pointer-events:   none;
+$input-default-disabled-box-shadow:       none;

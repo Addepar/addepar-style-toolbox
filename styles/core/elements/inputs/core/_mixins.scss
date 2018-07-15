@@ -1,0 +1,27 @@
+//  -----------------------------------
+//  Elements | Forms - Mixins
+//  -----------------------------------
+  // Disabled Input Styling
+
+// Disabled Input Styling
+@mixin disabled-input() {
+  cursor: not-allowed;
+  pointer-events: none;
+  box-shadow: none;
+}
+
+@mixin input-core-default {
+  box-sizing: $input-default-box-sizing;
+  position: $input-default-position;
+  cursor: $input-default-cursor;
+
+  // Focus Styling
+  &:focus {
+    outline: $input-default-focus-outline;
+  }
+
+  // Disabled Styling
+  &:disabled {
+    @include disabled-input;
+  }
+}

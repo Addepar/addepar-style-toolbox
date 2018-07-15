@@ -1,0 +1,28 @@
+//  -----------------------------------
+//  Elements | Buttons - Mixins
+//  -----------------------------------
+
+// Core Button Mixins
+// -----------------------------------------------------------------------------
+
+// Clears browser default button styling
+@mixin reset-button() {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  line-height: 1;
+
+  &:active,
+  &.#{$class-state-active} {
+    box-shadow: none;
+  }
+
+  &:active:focus,
+  &.#{$class-state-active}:focus,
+  &.active:focus { // TODO: see if we can get ember to use is-active instead
+    outline: none;
+  }
+}

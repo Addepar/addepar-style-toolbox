@@ -1,0 +1,16 @@
+//  -----------------------------------
+//  Elements | Forms - Select - Core
+//  -----------------------------------
+
+@import '../core/index';
+
+//  Default Select Styling
+//  -------------------------
+%select-default {
+  @extend %input-default;
+  @extend %input-apearance-none;
+}
+
+select {
+  @extend %select-default;
+}

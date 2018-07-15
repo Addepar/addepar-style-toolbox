@@ -16,7 +16,7 @@
 $font-size-base-unit:               14px;        // 14px
 
 $font-size-xx-small:                floor(($font-size-base-unit * .75));  // 10px
-$font-size-x-small:                floor(($font-size-base-unit * .8));   // 11px
+$font-size-x-small:                 floor(($font-size-base-unit * .8));   // 11px
 $font-size-small:                   floor(($font-size-base-unit * .95));  // 13px
 $font-size-medium:                  $font-size-base-unit;                 // 14px
 $font-size-large:                   floor(($font-size-base-unit * 1.2));  // 16px

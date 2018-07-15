@@ -1,0 +1,23 @@
+//  -----------------------------------
+//  Elements | Inputs - Select - Core
+//  -----------------------------------
+
+@import '../../../../core/elements/inputs/radio/index';
+@import '../core/core';
+
+
+%adde-radio-default {
+  @extend %adde-checkbox-radio-defaults;
+
+  &:checked {
+    border-color: $text-dark;
+
+    &:after {
+      background: $radio-button-checked-after-background;
+    }
+  }
+}
+
+input[type="radio"] {
+  @extend %adde-radio-default;
+}

@@ -7,9 +7,9 @@ Addepar brand. The `core` directory contains:
 - utilities
 - elements
 
-### Addepar Classic
-The `adpr-classic` directly is where all styling related to Addepar's UI2
-interface is kept. The `adpr-classic` directory contains:
+### Onyx
+The `onyx` directly is where all styling related to Addepar's Onyx
+interface is kept. The `onyx` directory contains:
 - core-variables (should be importing from `core`)
 - utilities
 - elements
