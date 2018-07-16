@@ -1,7 +1,6 @@
 // -------------------------
 //  Core Variables | Typography - Line Height
 // -------------------------
-
 // Are we set on this as the base line hight? do we want to use a more common ratio (1.618)?
 $line-height-base:                  1.6796875;
 
@@ -13,4 +12,7 @@ $line-height-x-small:               1.33;
 $line-height-small:                 1.5;
 $line-height-medium:                $line-height-base;
 
-$core-line-height:                  1.5;
+// Core Line Heights (to do --> remove everything above here)
+$core-line-height-small:            1.33;
+$core-line-height-medium:           1.42;
+$core-line-height-large:            1.5;
