@@ -1,16 +1,15 @@
 //  -----------------------------------
-//  Elements | Forms - Select - Core
+//  Core - Elements | Forms - Select - Core
 //  -----------------------------------
 
 @import '../core/index';
+@import '../../../utilities/global-placeholder-selectors/core';
 
 //  Default Select Styling
 //  -------------------------
-%select-default {
-  @extend %input-default;
-  @extend %input-apearance-none;
-}
-
-select {
-  @extend %select-default;
+%core-select-default {
+  @extend %core-placeholder-appearance-none;
+  background: $core-select-bg-default;
+  border-radius: $core-select-border-radius;
+  padding-right: $core-select-padding-r;
 }

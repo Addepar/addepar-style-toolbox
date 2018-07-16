@@ -7,13 +7,14 @@
 
 
 %adde-radio-default {
-  @extend %adde-checkbox-radio-defaults;
+  @extend %core-radio-default;
+  @extend %onyx-input-checkbox-radio-default;
 
   &:checked {
-    border-color: $text-dark;
+    border-color: $onyx-radio-button-checked-border-color;
 
     &:after {
-      background: $radio-button-checked-after-background;
+      background: $onyx-radio-button-checked-after-background;
     }
   }
 }

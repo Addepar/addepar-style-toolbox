@@ -5,27 +5,14 @@
 @import 'mixins';
 
 // Defines base input styling.
-%input-default {
-  @include input-core-default;
-}
-
-%input-apearance-none {
-  -webkit-appearance: none;
-}
-
-//  General Input Styling
-//  -------------------------
-//  Rather than target inputs by type, this will be a generic catch-all. It
-//  won't correctly style all input types. That styling should be done at the in
-//  the UI directory
-input,
-textarea {
-  @extend %input-default;
+%core-input-default {
+  @include core-input-default;
 }
 
 //  Textarea Styling
 //  -------------------------
-textarea {
-  resize: none;
-  vertical-align: top;
+%textarea-core-default {
+  @extend %core-input-default;
+  resize: $core-text-area-resize-default;
+  vertical-align: $core-text-area-vertical-aign-default;
 }

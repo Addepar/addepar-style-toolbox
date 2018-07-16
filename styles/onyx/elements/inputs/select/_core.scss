@@ -5,13 +5,11 @@
 @import '../../../../core/elements/inputs/select/index';
 @import '../core/core';
 
-%adde-select-default {
-  @extend %adde-input-default;
-  border-radius: $select-border-radius;
-  padding-right: $select-padding-r;
-  background: $select-bg;
+%onyx-select-default {
+  @extend %onyx-input-default;
+  @extend %core-select-default;
 }
 
 select {
-  @extend %adde-select-default;
+  @extend %onyx-select-default;
 }

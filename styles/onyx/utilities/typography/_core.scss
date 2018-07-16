@@ -1,0 +1,79 @@
+//  -----------------------------------
+//  Onyx - Utilities | Typography - Core
+//  -----------------------------------
+
+// Onyx - Interface Typography
+//
+%onyx-interface-typography-h1 {
+  @include header-styling ($onyx-interface-typography-h1, $core-font-weight-medium, $core-line-height);
+}
+
+%onyx-interface-typography-h2 {
+  @include header-styling ($onyx-interface-typography-h2, $core-font-weight-regular, $core-line-height);
+}
+
+%onyx-interface-typography-h3 {
+  @include header-styling ($onyx-interface-typography-h3, $core-font-weight-medium, $core-line-height);
+}
+
+%onyx-interface-typography-body {
+  @include header-styling ($onyx-interface-typography-body, $core-font-weight-regular, $core-line-height);
+}
+
+// Onyx - Hero Typography
+%onyx-highlight-typography-h1 {
+  @include header-styling ($onyx-highlight-typography-h1, $core-font-weight-regular, $core-line-height);
+}
+
+%onyx-highlight-typography-h2 {
+  @include header-styling ($onyx-highlight-typography-h2, $core-font-weight-medium, $core-line-height);
+}
+
+%onyx-highlight-typography-h3 {
+  @include header-styling ($onyx-highlight-typography-h3, $core-font-weight-medium, $core-line-height);
+}
+
+%onyx-highlight-typography-h4 {
+  @include header-styling ($onyx-highlight-typography-h4, $core-font-weight-medium, $core-line-height);
+}
+
+%onyx-highlight-typography-body {
+  @include header-styling ($onyx-highlight-typography-body, $core-font-weight-regular, $core-line-height);
+}
+
+.onyx-interface-typography-h1 {
+  @extend %onyx-interface-typography-h1;
+}
+
+.onyx-interface-typography-h2 {
+  @extend %onyx-interface-typography-h2;
+}
+
+.onyx-interface-typography-h3 {
+  @extend %onyx-interface-typography-h3;
+}
+
+.onyx-interface-typography-body {
+  @extend %onyx-interface-typography-body;
+}
+
+
+.onyx-highlight-typography-h1 {
+  @extend %onyx-highlight-typography-h1;
+}
+
+.onyx-highlight-typography-h2 {
+  @extend %onyx-highlight-typography-h2;
+}
+
+.onyx-highlight-typography-h3 {
+  @extend %onyx-highlight-typography-h3;
+}
+
+.onyx-highlight-typography-h4 {
+  @extend %onyx-highlight-typography-h4;
+}
+
+.onyx-highlight-typography-body {
+  @extend %onyx-highlight-typography-body;
+}

@@ -4,7 +4,8 @@
 
 @import '../../../../core/elements/inputs/core/index';
 
-%adde-input-default {
+%onyx-input-default {
+  @extend %core-input-default;
   background: $input-background;
   border: $input-border;
   padding: $input-padding;
@@ -47,9 +48,10 @@
   }
 }
 
-%adde-checkbox-radio-defaults {
-  width: $input-squre-size;
-  height: $input-squre-size;
+%onyx-input-checkbox-radio-default {
+  @extend %core-input-default;
+  width: $core-input-squre-size;
+  height: $core-input-squre-size;
   margin: 0 $spacing-x-small;
 
   // Focus styling
@@ -60,5 +62,5 @@
 
 input,
 textarea {
-  @extend %adde-input-default;
+  @extend %onyx-input-default;
 }

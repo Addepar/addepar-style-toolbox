@@ -21,10 +21,10 @@ $collapse-color-active: $text-dark;
 $collapse-padding: $spacing-default;
 
 // New design system variables
-$checkbox-height:                     1.2em;
-$checkbox-width:                      $checkbox-height;
-$checkbox-background-position:        center;
-$checkbox-svg:                        '/@addepar/style-toolbox/assets/images/checkbox-check.svg';
+$onyx-checkbox-height:                     1.2em;
+$onyx-checkbox-width:                      $onyx-checkbox-height;
+$onyx-checkbox-background-position:        center;
+$onyx-checkbox-svg:                        '/@addepar/style-toolbox/assets/images/checkbox-check.svg';
 
-$checkbox-checked-background:         url($checkbox-svg) center/12px no-repeat $background-default;
-$checkbox-checked-border:             $input-border-focus;
+$onyx-checkbox-checked-background:         url($onyx-checkbox-svg) center/12px no-repeat $background-default;
+$onyx-checkbox-checked-border:             $input-border-focus;

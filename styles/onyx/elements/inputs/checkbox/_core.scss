@@ -6,12 +6,13 @@
 @import '../core/core';
 
 %onyx-checkbox-default {
-  @extend %adde-checkbox-radio-defaults;
-  background-position: $checkbox-background-position;
+  @extend %core-checkbox-default;
+  @extend %onyx-input-checkbox-radio-default;
+  background-position: $onyx-checkbox-background-position;
 
   &:checked {
-    background: $checkbox-checked-background;
-    border: $checkbox-checked-border;
+    background: $onyx-checkbox-checked-background;
+    border: $onyx-checkbox-checked-border;
   }
 }
 

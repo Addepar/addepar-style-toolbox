@@ -3,9 +3,10 @@
 //  -----------------------------------
 
 $input-radio-checked-icon-size:               0.75em;
-$radio-button-border-radius:                  $border-radius-circle;
+$core-radio-button-border-radius:             $border-radius-circle;
 
-$radio-button-checked-after-width:            $input-radio-checked-icon-size;
-$radio-button-checked-after-height:           $radio-button-checked-after-width;
-$radio-button-checked-after-top:              calc(50% - (#{$radio-button-checked-after-height} / 2));
-$radio-button-checked-after-left:             calc(50% - (#{$radio-button-checked-after-width} / 2));
+$core-radio-button-checked-after-position:    absolute;
+$core-radio-button-checked-after-width:       $input-radio-checked-icon-size;
+$core-radio-button-checked-after-height:      $core-radio-button-checked-after-width;
+$core-radio-button-checked-after-top:         calc(50% - (#{$core-radio-button-checked-after-height} / 2));
+$core-radio-button-checked-after-left:        calc(50% - (#{$core-radio-button-checked-after-width} / 2));

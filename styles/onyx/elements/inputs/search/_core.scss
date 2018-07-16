@@ -1,0 +1,15 @@
+//  -----------------------------------
+//  Elements | Inputs - Search - Core Styling
+//  -----------------------------------
+
+@import '../../../../core/elements/inputs/search/index';
+@import '../core/core';
+
+%onyx-input-search-default {
+  @extend %onyx-input-default;
+  @extend %core-input-search-default;
+}
+
+input[type="search"] {
+  @extend %onyx-input-search-default;
+}

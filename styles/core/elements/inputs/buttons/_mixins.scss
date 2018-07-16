@@ -6,13 +6,11 @@
 // -----------------------------------------------------------------------------
 
 // Clears browser default button styling
-@mixin reset-button() {
+@mixin core-reset-button() {
   background: none;
   border: none;
   margin: 0;
   padding: 0;
-  color: inherit;
-  font: inherit;
   line-height: 1;
 
   &:active,

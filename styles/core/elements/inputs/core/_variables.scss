@@ -3,17 +3,21 @@
 //  -----------------------------------
 
 // Default Input Styling
-$input-default-box-sizing:                border-box;
-$input-default-position:                  relative;
-$input-default-cursor:                    pointer;
+$core-input-box-sizing-default:                border-box;
+$core-input-position-default:                  relative;
+$core-input-cursor-default:                    pointer;
 
 // Focus Styling
-$input-default-focus-outline:             none;
+$core-input-focus-outline-default:             none;
 
 // Square Input (radio/checkbox)
-$input-squre-size:                        1.2em;
+$core-input-squre-size:                        1.2em;
 
 // Disabled Input
-$input-default-disabled-cursor:           not-allowed;
-$input-default-disabled-pointer-events:   none;
-$input-default-disabled-box-shadow:       none;
+$core-input-default-disabled-cursor:           not-allowed;
+$core-input-default-disabled-pointer-events:   none;
+$core-input-default-disabled-box-shadow:       none;
+
+// Textarea
+$core-text-area-resize-default:                none;
+$core-text-area-vertical-aign-default:         top;

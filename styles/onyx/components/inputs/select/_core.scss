@@ -8,7 +8,7 @@ $select-padding:      0 26px 0 0;
 //  Select styling
 //  -------------------------
 .select {
-  @extend %select-default;
+  @extend %core-select-default;
   padding: $select-padding;
   position: relative;
 

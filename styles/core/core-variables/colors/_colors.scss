@@ -27,9 +27,11 @@ $background-hover-active:         $background-blue;
 
 //  Text Colors
 // -------------------------
-$text-dark:                       $grey-xx-dark;
-$text-light:                      $grey-dark;
-$text-inverse:                    $white;
+$text-dark:                       $core-grey-xx-dark;
+$text-medium:                     $core-grey-dark;
+$text-light:                      $core-grey-medium;
+$text-inverse:                    $core-grey-xx-light;
+
 $text-error:                      $red;
 $text-warning:                    $yellow-dark;
 $text-success:                    $green;

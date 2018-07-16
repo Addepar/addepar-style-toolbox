@@ -2,11 +2,11 @@
 //  Elements | Forms - Search Input - Core Styling
 //  -----------------------------------
 
-input[type='search'] {
-  background: $search-background;
-  @extend %input-default;
+%core-input-search-default {
+  background: $core-input-search-background;
+  @extend %core-input-default;
 
   &:focus {
-    background-image: none;
+    background-image: $core-input-search-background-image-focus;
   }
 }
