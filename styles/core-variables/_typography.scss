@@ -51,20 +51,84 @@ $font-heavy:                        900 !default;
 
 // Font Size
 // -------------------------
-$font-size-base:                    13px !default;
+$font-size-base:                    14px !default;
 
-$font-size-xl:                      ceil(($font-size-base * 1.7)) !default; // 22px
-$font-size-large:                   ceil(($font-size-base * 1.25)) !default; // 17px
-$font-size-medium:                  14px !default;
-$font-size-small:                   ceil(($font-size-base * 0.85)) !default; // 12px
-$font-size-smaller:                 11px !default;
-$font-size-xsmall:                  10px !default;
-$font-size-smallest:                8px !default;
+$font-size-xl:                      24px;
+$font-size-large:                   18px;
+$font-size-medium:                  14px;
+$font-size-small:                   12px;
+$font-size-smaller:                 11px;
+$font-size-xsmall:                  10px;
+$font-size-smallest:                8px;
+
+
+
+
+$core-font-size-1: 36px;
+$core-font-size-2: 24px;
+$core-font-size-3: 18px;
+$core-font-size-4: 16px;
+$core-font-size-5: 14px;
+$core-font-size-6: 12px;
+
+$text-color-dark: #222;
+$text-color-light: #666;
+$text-color-lighter: #888;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+
+
+.core-font-size-1 {
+	font-size: $core-font-size-1;
+}
+
+.core-font-size-2 {
+	font-size: $core-font-size-2;
+}
+
+.core-font-size-3 {
+	font-size: $core-font-size-3;
+}
+
+.core-font-size-4 {
+	font-size: $core-font-size-4;
+}
+
+.core-font-size-5 {
+	font-size: $core-font-size-5;
+}
+
+.core-font-size-6 {
+	font-size: $core-font-size-6;
+}
+
+//
+
+.text-color-dark {
+	color: $text-color-dark;
+}
+
+.text-color-light {
+	color: $text-color-light;
+}
+
+.text-color-lighter {
+	color: $text-color-lighter;
+}
+
+.font-weight-regular {
+	font-weight: $font-weight-regular;
+}
+
+.font-weight-medium {
+	font-weight: $font-weight-medium;
+}
 
 $font-size-h1:                      floor(($font-size-base * 2.6)) !default; // 33px
 $font-size-h2:                      floor(($font-size-base * 2.15)) !default; // 27px
 $font-size-h3:                      $font-size-xl !default;
-$font-size-h4:                      $font-size-large !default;
+$font-size-h4:                      $core-font-size-3;
 $font-size-h5:                      $font-size-base !default;
 $font-size-h6:                      $font-size-small !default;
 
@@ -83,3 +147,45 @@ $line-height-xs:                    1.1 !default;
 // -------------------------
 
 $standard-letter-spacing:           1px !default;
+
+
+// Overrides
+
+h4 {
+	font-size: $core-font-size-3;
+	font-weight: 500;
+}
+
+.ember-table-financial .ember-table-cell {
+	font-size: $core-font-size-5
+}
+
+.input-sm {
+	font-size: $core-font-size-5;
+	color: $text-color-dark;
+}
+
+.form-label.toggle-label, .form-label.checkbox-label {
+	color: $text-color-dark;
+}
+
+.form-control {
+	color: $text-color-dark;
+}
+
+body {
+	color: $text-color-dark;
+}
+
+.form-control {
+	font-size: $core-font-size-5;
+	color: $text-color-dark;
+
+	&::placeholder {
+		color: $text-color-lighter
+	}
+}
+
+svg .chart-viewport text {
+	font-size: $core-font-size-6;
+}
