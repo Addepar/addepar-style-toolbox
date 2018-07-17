@@ -1,6 +1,6 @@
 {
   "name": "@addepar/style-toolbox",
-  "version": "0.5.1",
+  "version": "0.5.5",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon"
@@ -19,6 +19,7 @@
     "test": "ember try:each"
   },
   "dependencies": {
+    "autoprefixer": "^8.5.1",
     "broccoli-file-creator": "^1.1.1",
     "broccoli-funnel": "^2.0.1",
     "broccoli-merge-trees": "^3.0.0",
@@ -27,6 +28,8 @@
     "node-sass-import-once": "^1.2.0"
   },
   "devDependencies": {
+    "@addepar/eslint-config": "^4.0.1",
+    "@addepar/prettier-config": "^1.0.0",
     "@addepar/sass-lint-config": "^2.0.1",
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
@@ -53,6 +56,7 @@
     "eslint-plugin-ember": "^5.0.0",
     "eslint-plugin-node": "^5.2.1",
     "loader.js": "^4.2.3",
+    "prettier": "^1.13.2",
     "sass-lint": "^1.12.1"
   },
   "engines": {
