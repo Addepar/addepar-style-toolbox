@@ -63,6 +63,8 @@
   @extend %onyx-highlight-typography-margin-default;
 }
 
+
+// Utility Classes
 .onyx-interface-typography-h1 {
   @extend %onyx-interface-typography-h1;
 }
@@ -78,7 +80,6 @@
 .onyx-interface-typography-body {
   @extend %onyx-interface-typography-body;
 }
-
 
 .onyx-highlight-typography-h1 {
   @extend %onyx-highlight-typography-h1;

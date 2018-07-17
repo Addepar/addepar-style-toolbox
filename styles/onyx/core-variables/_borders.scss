@@ -2,7 +2,7 @@
 // -----------------------------------------------------------------------------
 // TODO: See if we can refactor these further, design-wise
 // Will do formal docs once that happens
-@import '../../core/core-variables/index';
+@import '@addepar/style-toolbox/core/core-variables/index';
 
 // most common border color
 $global-border-color:                   $border-item !default;

@@ -2,9 +2,117 @@
 //  Core - Utilities | Typography - Mixins
 //  -----------------------------------
 
+// @addepar-font-face()
+//
+// Creates Addepar specific font face declaration, based on Compass font-face mixin
+// Assumes all font types have the same base file name (Addepar standard)
+// For best results, declare type in this order: woff, otf/ttf, svg, eot
+//
+// ### Example Usage:
+//
+//   `@include addepar-font-face('Univers-Next',
+//     '/fonts/UniversNextW01Regular', ('woff', 'ttf'), $font-normal);`
+//
+// ### Parameters:
+//
+// * $name = Font name
+// * $font-file = File name
+// * $file-types = Array of different font file types
+// * $weight = 400 - Font weight
+// * $style = normal - Font style
+// * $post-fix = false - Add a custom string to the end of the font file, usually used for cross browser fixes
+//
+// ### Example Output:
+//   ```
+//   @font-face {
+//     font-family: "Univers-Next";
+//     src: url("/ice-box/fonts/UniversNextW01Regular.woff") format("woff"), url("/ice-box/fonts/UniversNextW01Regular.ttf") format("ttf");
+//     font-weight: 400;
+//     font-style: normal;
+//   }
+//   ```
+//
+// Styleguide: Style Toolbox - Mixins - Typography - @addepar-font-face()
+
 @mixin core-typography-styling($font-size, $font-weight, $line-height, $color:null) {
   font-size: $font-size;
   font-weight: $font-weight;
   line-height: $line-height;
   color: $color;
+}
+
+// @font-settings()
+//
+// Addepar specific font rendering settings
+//
+// Example Usage:
+//
+//   ```
+//   body {
+//     @include @font-settings();
+//   }
+//   ```
+//
+// Parameters:
+//
+// * none
+//
+// Example Output:
+//   ```
+//   * {
+//     text-rendering: optimizeLegibility;
+//
+//     font-smoothing: antialiased;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+//   }
+//   ```
+//
+// Styleguide: Style Toolbox - Mixins - Typography - @font-settings()
+
+@mixin font-settings() {
+  * {
+    text-rendering: optimizeLegibility;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+// @ellipsis-overflow()
+//
+// Standard setup to make text in an element ellipsize.
+// Element must have some kind of width applied.
+//
+// Example Usage:
+//
+//   ```
+//   .element {
+//     @include @ellipsis-overflow();
+//   }
+//   ```
+//
+// Parameters:
+//
+// * none
+//
+// Example Output:
+//   ```
+//   .element {
+//     display: block;
+//     overflow: hidden;
+//     white-space: nowrap;
+//     word-wrap: break-word;
+//     text-overflow: ellipsis;
+//   }
+//   ```
+//
+// Styleguide: Style Toolbox - Mixins - Typography - @ellipsis-overflow()
+
+@mixin ellipsis-overflow() {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
 }

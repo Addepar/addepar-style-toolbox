@@ -19,7 +19,7 @@
 
 // Button placeholder used to create button types
 %button {
-  // @include reset-button();
+  @include reset-button();
   user-select: none;
   touch-action: manipulation;
   cursor: pointer;
