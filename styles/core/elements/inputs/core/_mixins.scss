@@ -11,6 +11,7 @@
 }
 
 @mixin core-input-default {
+  font-size: inherit;
   box-sizing: $core-input-box-sizing-default;
   position: $core-input-position-default;
   cursor: $core-input-cursor-default;

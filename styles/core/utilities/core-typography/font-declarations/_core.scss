@@ -110,12 +110,3 @@
       ('woff', 'eot'),
       $font-weight-light
     );
-
-    // Fontawesome
-    // -------------------------
-    @include addepar-font-face(
-      $fontawesome,
-      '#{$fontawesome-font-folder}/#{$fontawesome}-webfont',
-      ('woff', 'eot'),
-      null
-    );

@@ -11,8 +11,12 @@
 
 //  Textarea Styling
 //  -------------------------
-%textarea-core-default {
+%core-textarea-default {
   @extend %core-input-default;
   resize: $core-text-area-resize-default;
   vertical-align: $core-text-area-vertical-aign-default;
+}
+
+%core-input-appearance-none {
+  -webkit-appearance: none;
 }

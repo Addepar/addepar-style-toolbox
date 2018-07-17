@@ -1,0 +1,36 @@
+//  -----------------------------------
+//  Core Variables | Typography - Core
+//  -----------------------------------
+
+// New - Font Sizing
+// -------------------------
+$core-typography-size-1:            36px;
+$core-typography-size-2:            24px;
+$core-typography-size-3:            18px;
+$core-typography-size-4:            16px;
+$core-typography-size-5:            14px;
+$core-typography-size-6:            12px;
+
+// Probably should live in Onyx
+$core-interface-typography-h1:      $core-typography-size-3;
+$core-interface-typography-h2:      $core-typography-size-4;
+$core-interface-typography-h3:      $core-typography-size-5;
+$core-interface-typography-body:    $core-typography-size-5;
+
+// Probably should live in Onyx
+$core-highlight-typography-h1:      $core-typography-size-1;
+$core-highlight-typography-h2:      $core-typography-size-2;
+$core-highlight-typography-h3:      $core-typography-size-3;
+$core-highlight-typography-h4:      $core-typography-size-4;
+$core-highlight-typography-body:    $core-typography-size-4;
+
+// Old Variables that need to be removed
+$font-size-h1:                      $core-typography-size-1;
+$font-size-h2:                      $core-typography-size-2;
+$font-size-h3:                      $core-typography-size-3;
+$font-size-h4:                      $core-typography-size-4;
+$font-size-h5:                      $core-typography-size-5;
+$font-size-h6:                      $core-typography-size-6;
+
+
+$font-size-base-unit:               $core-typography-size-5;

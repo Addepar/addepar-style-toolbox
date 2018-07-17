@@ -2,9 +2,8 @@
 //  Elements | Forms - Checkbox - Core
 //  -----------------------------------
 @import '../core/index';
-@import '../../../utilities/global-placeholder-selectors/core';
 
 %core-checkbox-default {
-  @extend %core-placeholder-appearance-none;
+  @extend %core-input-appearance-none;
   @extend %core-input-default;
 }

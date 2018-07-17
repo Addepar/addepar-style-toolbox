@@ -1,12 +1,6 @@
 //  -----------------------------------
-//  Utilities | Typography - Mixins
+//  Core - Utilities | Typography - Font Declarations - Mixins
 //  -----------------------------------
-
-@mixin header-styling ($font-size, $font-weight, $line-height) {
-  font-size: $font-size;
-  font-weight: $font-weight;
-  line-height: $line-height;
-}
 
 @mixin addepar-font-face($name, $font-file, $file-types, $weight: 400, $style: normal, $post-fix: false) {
   $font-files: null; // concatenated string of font declarations

@@ -2,12 +2,12 @@
 //  Elements | Forms - Radios - Core
 //  -----------------------------------
 
-@import '../../../utilities/global-mixins/index';
-@import '../../../utilities/global-placeholder-selectors/core';
+@import '../../../utilities/core-mixins/index';
+@import '../core/index';
 
 %core-radio-default {
   border-radius: $core-radio-button-border-radius;
-  @extend %core-placeholder-appearance-none;
+  @extend %core-input-appearance-none;
   @extend %core-input-default;
 
   // Checked Styling
@@ -19,5 +19,6 @@
     top: $core-radio-button-checked-after-top;
     left: $core-radio-button-checked-after-left;
     border-radius: $core-radio-button-border-radius;
+    transform: $core-radio-button-checked-after-transform;
   }
 }

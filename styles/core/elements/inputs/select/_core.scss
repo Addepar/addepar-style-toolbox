@@ -3,12 +3,12 @@
 //  -----------------------------------
 
 @import '../core/index';
-@import '../../../utilities/global-placeholder-selectors/core';
+@import '../core/index';
 
 //  Default Select Styling
 //  -------------------------
 %core-select-default {
-  @extend %core-placeholder-appearance-none;
+  @extend %core-input-appearance-none;
   background: $core-select-bg-default;
   border-radius: $core-select-border-radius;
   padding-right: $core-select-padding-r;

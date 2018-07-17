@@ -1,6 +1,6 @@
-// -------------------------
-//  Core Variables | Typography - Typography declarations
-// -------------------------
+//  -----------------------------------
+//  Core Variables | Typography - Font Weight
+//  -----------------------------------
 
 // font-weight
 // -------------------------
@@ -28,11 +28,3 @@ $font-weight-xxxx-bold:             $font-heavy;
 // -------------------------
 $core-font-weight-regular:          $font-normal;
 $core-font-weight-medium:           $font-medium;
-
-// Letter Spacing
-// -------------------------
-$letter-spacing-base:               1px;
-
-$letter-spacing-small:              $letter-spacing-base / 2;
-$letter-spacing-medium:             $letter-spacing-base;
-$letter-spacing-large:              $letter-spacing-base * 1.2;
