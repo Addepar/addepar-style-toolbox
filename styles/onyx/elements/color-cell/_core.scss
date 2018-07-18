@@ -27,14 +27,14 @@
   }
 
   &.is-transparent {
-    background-image: url('/@addepar/style-toolbox/onyx/assets/images/transparent_color.svg');
+    background-image: url('/@addepar/style-toolbox/assets/images/transparent_color.svg');
   }
 
   // Invalid is used for an improperly typed or unallowed color.
   // Empty is used for no color mode.
   &.is-invalid,
   &.is-empty {
-    background-image: url('/@addepar/style-toolbox/onyx/assets/images/invalid_color.svg');
+    background-image: url('/@addepar/style-toolbox/assets/images/invalid_color.svg');
   }
 
 
