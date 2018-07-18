@@ -2,7 +2,7 @@
 //  Elements | Inputs - Checkbox - Core Styling
 //  -----------------------------------
 
-@import '../../../../core/elements/inputs/checkbox/index';
+@import '@addepar/style-toolbox/core/elements/inputs/checkbox/index';
 @import '../core/core';
 
 %onyx-checkbox-default {
@@ -14,8 +14,4 @@
     background: $onyx-checkbox-checked-background;
     border: $onyx-checkbox-checked-border;
   }
-}
-
-input[type='checkbox'] {
-  @extend %onyx-checkbox-default;
 }
