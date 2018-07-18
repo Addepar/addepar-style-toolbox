@@ -1,0 +1,22 @@
+//  -----------------------------------
+//  Core - Core Variables | Colors - Backgrounds
+//  -----------------------------------
+
+@import 'color-defaults';
+
+$background-xx-dark:              $grey-xx-dark;
+$background-x-dark:               $grey-x-dark;
+$background-dark:                 $grey-dark;
+$background-medium:               $grey-medium;
+$background-light:                $grey-light;
+$background-x-light:              $grey-x-light;
+$background-xx-light:             $grey-xx-light;
+
+$background-default:              $white;
+$background-error:                $red-light;
+$background-warning:              $yellow-light;
+$background-success:              $green-light;
+$background-blue:                 $blue-light;
+
+$background-hover:                $blue-x-light;
+$background-hover-active:         $background-blue;

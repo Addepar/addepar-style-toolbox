@@ -1,0 +1,21 @@
+//  -----------------------------------
+//  Core - Core Variables | Colors - Borders
+//  -----------------------------------
+
+@import 'color-defaults';
+@import 'colors-icons';
+@import 'colors-text';
+
+$border-x-light:             			$grey-x-light;
+$border-light:               			darken($border-x-light, $hover-color-darken);
+$border-medium:              			$background-medium;
+$border-dark:                			$background-dark;
+$border-x-dark:                   $text-dark;
+$border-error:                    $text-error;
+$border-warning:                  $icon-warning;
+$border-success:                  $text-success;
+$border-focus:                    $brand-blue-gray;
+
+$border-color-default:            $border-x-light;
+$border-color-input:              $border-medium;
+$border-color-header:             $border-x-light;

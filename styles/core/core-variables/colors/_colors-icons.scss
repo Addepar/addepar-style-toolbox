@@ -1,0 +1,13 @@
+//  -----------------------------------
+//  Core - Core Variables | Colors - Icons
+//  -----------------------------------
+
+@import 'color-defaults';
+@import 'colors-text';
+
+$icon-dark:                       $background-xx-dark;
+$icon-light:                      $text-light;
+$icon-inverse:                    $text-inverse;
+$icon-success:                    $text-success;
+$icon-warning:                    $yellow-medium;
+$icon-error:                      $text-error;
