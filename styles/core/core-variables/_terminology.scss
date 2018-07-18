@@ -1,0 +1,21 @@
+//  -----------------------------------
+//  Core - Core Variables | Terminology - Core
+//  -----------------------------------
+
+$class-state-error:                   'is-error';
+$class-state-warning:                 'is-warning';
+$class-state-success:                 'is-success';
+
+$class-state-active:                  'is-active';
+$class-state-inactive:                'is-inactive';
+
+// Class names on state changes (React)
+$class-state-enter:                   'is-opening';
+$class-state-open:                    'is-open';
+$class-state-leave:                   'is-closing';
+$class-state-closed:                  'is-closed';
+
+// Class names for sizes
+$class-size-small:                    'size-sm';
+$class-size-medium:                   'size-md';
+$class-size-large:                    'size-lg';

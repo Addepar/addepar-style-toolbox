@@ -1,0 +1,112 @@
+//  -----------------------------------
+//  Core - Utilties | Typography - Font Declarations - Core
+//  -----------------------------------
+
+@import '../../../core-variables/index';
+
+// Font declarations
+// -------------------------
+
+  // Univers Next
+  // -------------------------
+    // Light
+    @include addepar-font-face(
+      $univers,
+      '#{$univers-default-font-folder}/#{$univers}-light',
+      ('woff', 'ttf'),
+      $font-weight-light
+    );
+
+    // Regular
+    @include addepar-font-face(
+      $univers,
+      '#{$univers-default-font-folder}/#{$univers}-regular',
+      ('woff', 'ttf'),
+      $font-weight-regular
+    );
+
+    // Medium
+    @include addepar-font-face(
+      $univers,
+      '#{$univers-default-font-folder}/#{$univers}-medium',
+      ('woff', 'ttf'),
+      $font-weight-bold
+    );
+
+    // Bold
+    @include addepar-font-face(
+      $univers,
+      '#{$univers-default-font-folder}/#{$univers}-bold',
+      ('woff', 'ttf'),
+      $font-weight-x-bold
+    );
+
+  // Univers Next Condensed
+  // -------------------------
+    // Light
+    @include addepar-font-face(
+      $univers-condensed,
+      '#{$univers-condensed-font-folder}/#{$univers-condensed}-light',
+      ('woff', 'ttf'),
+      $font-weight-light
+    );
+
+    // Regular
+    @include addepar-font-face(
+      $univers-condensed,
+      '#{$univers-condensed-font-folder}/#{$univers-condensed}-regular',
+      ('woff', 'ttf'),
+      $font-weight-regular
+    );
+
+    // Medium
+    @include addepar-font-face(
+      $univers-condensed,
+      '#{$univers-condensed-font-folder}/#{$univers-condensed}-medium',
+      ('woff', 'ttf'),
+      $font-weight-bold
+    );
+
+    // Bold
+    @include addepar-font-face(
+      $univers-condensed,
+      '#{$univers-condensed-font-folder}/#{$univers-condensed}-bold',
+      ('woff', 'ttf'),
+      $font-weight-x-bold
+    );
+
+  // Univers Tabular
+  // -------------------------
+    // Light
+    @include addepar-font-face(
+      $univers-tabular,
+      '#{$univers-tabular-font-folder}/#{$univers-tabular}-light',
+      ('woff', 'ttf'),
+      $font-weight-light
+    );
+
+    // Regular
+    @include addepar-font-face(
+      $univers-tabular,
+      '#{$univers-tabular-font-folder}/#{$univers-tabular}-roman',
+      ('woff', 'ttf'),
+      $font-weight-regular
+    );
+
+    // Medium
+    @include addepar-font-face(
+      $univers-tabular,
+      '#{$univers-tabular-font-folder}/#{$univers-tabular}-bold',
+      ('woff', 'ttf'),
+      $font-weight-bold
+    );
+
+  // Tiempos Headline
+  // -------------------------
+    // Light
+    @include addepar-font-face(
+      $tiempos-headline,
+      '#{$tiempos-headline-font-folder}/#{$tiempos-headline}-light',
+      ('woff', 'eot'),
+      $font-weight-light
+    );

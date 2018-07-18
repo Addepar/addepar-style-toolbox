@@ -1,0 +1,67 @@
+//  -----------------------------------
+//  Core - Core Variables | Colors - Color Declarations
+//  -----------------------------------
+  //  Backgrounds
+  //  Text Colors
+  //  Icons
+  //  Borders
+
+//  Backgrounds
+// -------------------------
+$background-xx-dark:              $grey-xx-dark;
+$background-x-dark:               $grey-x-dark;
+$background-dark:                 $grey-dark;
+$background-medium:               $grey-medium;
+$background-light:                $grey-light;
+$background-x-light:              $grey-x-light;
+$background-xx-light:             $grey-xx-light;
+
+$background-default:              $white;
+$background-error:                $red-light;
+$background-warning:              $yellow-light;
+$background-success:              $green-light;
+$background-blue:                 $blue-light;
+
+$background-hover:                $blue-x-light;
+$background-hover-active:         $background-blue;
+
+//  Text Colors
+// -------------------------
+$text-dark:                       $core-grey-xx-dark;
+$text-medium:                     $core-grey-dark;
+$text-light:                      $core-grey-medium;
+$text-inverse:                    $core-grey-xx-light;
+
+$text-error:                      $red;
+$text-warning:                    $yellow-dark;
+$text-success:                    $green;
+$text-blue:                       $brand-blue-gray;
+
+$text-disabled:                   $text-light;
+$text-link:                       $brand-blue-gray;
+$text-link-hover:                 darken($brand-blue-gray, $hover-color-darken);
+
+//  Icons
+// -------------------------
+$icon-dark:                       $background-xx-dark;
+$icon-light:                      $text-light;
+$icon-inverse:                    $text-inverse;
+$icon-success:                    $text-success;
+$icon-warning:                    $yellow-medium;
+$icon-error:                      $text-error;
+
+//  Borders
+// -------------------------
+$border-x-light:             			$grey-x-light;
+$border-light:               			darken($border-x-light, $hover-color-darken);
+$border-medium:              			$background-medium;
+$border-dark:                			$background-dark;
+$border-x-dark:                   $text-dark;
+$border-error:                    $text-error;
+$border-warning:                  $icon-warning;
+$border-success:                  $text-success;
+$border-focus:                    $brand-blue-gray;
+
+$border-color-default:            $border-x-light;
+$border-color-input:              $border-medium;
+$border-color-header:             $border-x-light;

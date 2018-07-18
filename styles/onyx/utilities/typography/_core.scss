@@ -3,7 +3,7 @@
 //  -----------------------------------
 
 @import '@addepar/style-toolbox/core/core-variables/typography/index';
-@import '@addepar/style-toolbox/core/utilities/core-typography/mixins';
+@import '@addepar/style-toolbox/core/utilities/typography/mixins';
 
 // Onyx - Interface Typography
 //
@@ -13,54 +13,54 @@
 }
 
 %onyx-interface-typography-h1 {
-  @include core-typography-styling ($onyx-interface-typography-h1, $core-font-weight-medium, $core-line-height-small);
   @extend %onyx-interface-typopgraphy-margin-default;
+  @include core-typography-styling ($onyx-interface-typography-h1, $core-font-weight-medium, $core-line-height-small);
 }
 
 %onyx-interface-typography-h2 {
-  @include core-typography-styling ($onyx-interface-typography-h2, $core-font-weight-regular, $core-line-height-small);
   @extend %onyx-interface-typopgraphy-margin-default;
+  @include core-typography-styling ($onyx-interface-typography-h2, $core-font-weight-regular, $core-line-height-small);
 }
 
 %onyx-interface-typography-h3 {
-  @include core-typography-styling ($onyx-interface-typography-h3, $core-font-weight-medium, $core-line-height-small);
   @extend %onyx-interface-typopgraphy-margin-default;
+  @include core-typography-styling ($onyx-interface-typography-h3, $core-font-weight-medium, $core-line-height-small);
 }
 
 %onyx-interface-typography-body {
-  @include core-typography-styling ($onyx-interface-typography-body, $core-font-weight-regular, $core-line-height-large);
   @extend %onyx-interface-typopgraphy-margin-default;
+  @include core-typography-styling ($onyx-interface-typography-body, $core-font-weight-regular, $core-line-height-large);
 }
 
 // Onyx - Hero Typography
 
 %onyx-highlight-typography-margin-default {
-  margin: 0 0 $spacing-small 0;
+  margin: 0 0 $spacing-small;
 }
 
 %onyx-highlight-typography-h1 {
-  @include core-typography-styling ($onyx-highlight-typography-h1, $core-font-weight-regular, $core-line-height-small);
   @extend %onyx-highlight-typography-margin-default;
+  @include core-typography-styling ($onyx-highlight-typography-h1, $core-font-weight-regular, $core-line-height-small);
 }
 
 %onyx-highlight-typography-h2 {
-  @include core-typography-styling ($onyx-highlight-typography-h2, $core-font-weight-medium, $core-line-height-small);
   @extend %onyx-highlight-typography-margin-default;
+  @include core-typography-styling ($onyx-highlight-typography-h2, $core-font-weight-medium, $core-line-height-small);
 }
 
 %onyx-highlight-typography-h3 {
-  @include core-typography-styling ($onyx-highlight-typography-h3, $core-font-weight-medium, $core-line-height-small);
   @extend %onyx-highlight-typography-margin-default;
+  @include core-typography-styling ($onyx-highlight-typography-h3, $core-font-weight-medium, $core-line-height-small);
 }
 
 %onyx-highlight-typography-h4 {
-  @include core-typography-styling ($onyx-highlight-typography-h4, $core-font-weight-medium, $core-line-height-large);
   @extend %onyx-highlight-typography-margin-default;
+  @include core-typography-styling ($onyx-highlight-typography-h4, $core-font-weight-medium, $core-line-height-large);
 }
 
 %onyx-highlight-typography-body {
-  @include core-typography-styling ($onyx-highlight-typography-body, $core-font-weight-regular, $core-line-height-medium);
   @extend %onyx-highlight-typography-margin-default;
+  @include core-typography-styling ($onyx-highlight-typography-body, $core-font-weight-regular, $core-line-height-medium);
 }
 
 

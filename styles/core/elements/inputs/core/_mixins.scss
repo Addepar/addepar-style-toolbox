@@ -10,7 +10,7 @@
   box-shadow: $core-input-default-disabled-box-shadow;
 }
 
-@mixin core-input-default {
+@mixin core-input-default() {
   font-size: inherit;
   box-sizing: $core-input-box-sizing-default;
   position: $core-input-position-default;
@@ -23,6 +23,6 @@
 
   // Disabled Styling
   &:disabled {
-    @include disabled-input;
+    @include disabled-input();
   }
 }

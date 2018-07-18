@@ -6,7 +6,7 @@
 
 // Defines base input styling.
 %core-input-default {
-  @include core-input-default;
+  @include core-input-default();
 }
 
 //  Textarea Styling

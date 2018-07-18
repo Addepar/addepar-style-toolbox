@@ -1,67 +1,47 @@
 //  -----------------------------------
-//  Core - Core Variables | Colors - Color Declarations
+//  Core - Core Variables | Colors - Core Variables
 //  -----------------------------------
-  //  Backgrounds
-  //  Text Colors
-  //  Icons
-  //  Borders
+ //  Neutral Palette
+ //  Brand Palette
+ //  Interactive Palette
 
-//  Backgrounds
+
+//  Neutral Palette
 // -------------------------
-$background-xx-dark:              $grey-xx-dark;
-$background-x-dark:               $grey-x-dark;
-$background-dark:                 $grey-dark;
-$background-medium:               $grey-medium;
-$background-light:                $grey-light;
-$background-x-light:              $grey-x-light;
-$background-xx-light:             $grey-xx-light;
+$black:                           #000000;
+$grey-xx-dark:                    #333333;
+$grey-x-dark:                     lighten($grey-xx-dark, 30%);
+$grey-dark:                       #999999;
+$grey-medium:                     #c7c7c7;
+$grey-light:                      #dddddd;
+$grey-x-light:                    #e9e9e9;
+$grey-xx-light:                   #f4f4f4;
+$white:                           #ffffff;
 
-$background-default:              $white;
-$background-error:                $red-light;
-$background-warning:              $yellow-light;
-$background-success:              $green-light;
-$background-blue:                 $blue-light;
-
-$background-hover:                $blue-x-light;
-$background-hover-active:         $background-blue;
-
-//  Text Colors
+// New Neutral Palette - TODO: remove/refactor current Neutrals
 // -------------------------
-$text-dark:                       $core-grey-xx-dark;
-$text-medium:                     $core-grey-dark;
-$text-light:                      $core-grey-medium;
-$text-inverse:                    $core-grey-xx-light;
+$core-grey-xx-dark:               #222222;
+$core-grey-dark:                  #666666;
+$core-grey-medium:                #888888;
+$core-grey-xx-light:              #f3f3f3;
 
-$text-error:                      $red;
-$text-warning:                    $yellow-dark;
-$text-success:                    $green;
-$text-blue:                       $brand-blue-gray;
-
-$text-disabled:                   $text-light;
-$text-link:                       $brand-blue-gray;
-$text-link-hover:                 darken($brand-blue-gray, $hover-color-darken);
-
-//  Icons
+//  Brand Palette
 // -------------------------
-$icon-dark:                       $background-xx-dark;
-$icon-light:                      $text-light;
-$icon-inverse:                    $text-inverse;
-$icon-success:                    $text-success;
-$icon-warning:                    $yellow-medium;
-$icon-error:                      $text-error;
+$brand-blue-gray:                 #27618a;
 
-//  Borders
+//  Interactive Palette
 // -------------------------
-$border-x-light:             			$grey-x-light;
-$border-light:               			darken($border-x-light, $hover-color-darken);
-$border-medium:              			$background-medium;
-$border-dark:                			$background-dark;
-$border-x-dark:                   $text-dark;
-$border-error:                    $text-error;
-$border-warning:                  $icon-warning;
-$border-success:                  $text-success;
-$border-focus:                    $brand-blue-gray;
+$red:                             #cb323b;
+$red-medium:                      #e15554;
+$red-light:                       #fae8ee;
+$yellow-dark:                     #af8828;
+$yellow-medium:                   #e5b92a;
+$yellow-light:                    #faf4d6;
+$yellow-highlight:                #ffff00;
+$green:                           #478951;
+$green-light:                     #d7eed0;
+$blue:                            $brand-blue-gray;
+$blue-light:                      #d7ebfa;
+$blue-x-light:                    lighten($blue-light, 4%);
 
-$border-color-default:            $border-x-light;
-$border-color-input:              $border-medium;
-$border-color-header:             $border-x-light;
+$hover-color-darken:              10%;

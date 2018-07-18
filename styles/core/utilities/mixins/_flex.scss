@@ -1,0 +1,28 @@
+//  -----------------------------------
+//  Core - Utilities | Global Mixins - Flex
+//  -----------------------------------
+
+  // center items vertically
+  @mixin flex-align-center() {
+    display: flex;
+    align-items: center;
+  }
+
+  // center items horizontally
+  @mixin flex-justify-center() {
+    display: flex;
+    justify-content: center;
+  }
+
+  // center items both vertically and horizontally
+  @mixin flex-center-center() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+// Space items
+  @mixin flex-space-between() {
+    display: flex;
+    justify-content: space-between;
+  }

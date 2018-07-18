@@ -26,5 +26,5 @@ $onyx-checkbox-width:                      $onyx-checkbox-height;
 $onyx-checkbox-background-position:        center;
 $onyx-checkbox-svg:                        '/@addepar/style-toolbox/assets/images/checkbox-check.svg';
 
-$onyx-checkbox-checked-background:         url($onyx-checkbox-svg) center/12px no-repeat $background-default;
+$onyx-checkbox-checked-background:         url($onyx-checkbox-svg) center / 12px no-repeat $background-default;
 $onyx-checkbox-checked-border:             $input-border-focus;

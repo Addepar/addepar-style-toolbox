@@ -1,0 +1,33 @@
+//  -----------------------------------
+//  Core - Core Variables | Timing - Timing Declarations
+//  -----------------------------------
+  //  Durations
+  //  Transition Timing
+  //  Animation Timing
+
+//  Durations
+//  -------------------------
+$duration-x-short:                      0.1s;
+$duration-short:                        0.2s;
+$duration-medium:                       0.3s;
+$duration-long:                         0.5s;
+$duration-x-long:                       0.6s;
+$duration-xx-long:                      1.4s;
+$duration-xxx-long:                     3s;
+
+//  Transition Timing
+//  -------------------------
+$transition-duration-x-short:           $duration-x-short;
+$transition-duration-short:             $duration-short;
+$transition-duration-medium:            $duration-medium;
+$transition-duration-long:              $duration-long;
+$transition-duration-x-long:            $duration-x-long;
+
+//  Animation Timing
+//  -------------------------
+$animation-duration-short:              $duration-x-short;
+$animation-duration-medium:             $duration-medium;
+$animation-duration-long:               $duration-long;
+$animation-duration-x-long:             $duration-x-long;
+$animation-duration-xx-long:            $duration-xx-long;
+$animation-duration-xxx-long:           $duration-xxx-long;

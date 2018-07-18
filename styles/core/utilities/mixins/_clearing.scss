@@ -1,0 +1,13 @@
+//  -----------------------------------
+//  Core - Utilities | Mixins - Clearing
+//  -----------------------------------
+
+  @mixin clear-block() {
+    display: block;
+    clear: both;
+  }
+
+  @mixin content-clear-block() {
+    @include clear-block();
+    content: '';
+  }
