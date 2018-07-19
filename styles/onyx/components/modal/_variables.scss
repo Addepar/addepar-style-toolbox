@@ -1,10 +1,10 @@
-@import '@addepar/style-toolbox/onyx/core-variables/colors';
-@import '@addepar/style-toolbox/onyx/core-variables/spacing';
-@import '@addepar/style-toolbox/onyx/core-variables/typography';
-@import '@addepar/style-toolbox/onyx/utilities/typography/mixins';
-@import '@addepar/style-toolbox/onyx/utilities/typography/fonts';
-@import '@addepar/style-toolbox/onyx/core-variables/borders';
-@import '@addepar/style-toolbox/onyx/elements/inputs/button/index';
+@import '../../core-variables/colors';
+@import '../../core-variables/spacing';
+@import '../../core-variables/typography';
+@import '../../utilities/typography/mixins';
+@import '../../utilities/typography/fonts';
+@import '../../core-variables/borders';
+@import '../../elements/inputs/button/index';
 
 // Text
 $adde-modal-font-family:                $font-family-sans-serif;
