@@ -34,7 +34,7 @@ include all of the toolbox in your `app/styles/app.scss` file:
 
 Or for a more specific UI piece:
 ```
-@import '@addepar/style-toolbox/elements/inputs/button/index';
+@import '@addepar/style-toolbox/onyx/elements/inputs/button/index';
 ```
 
 
