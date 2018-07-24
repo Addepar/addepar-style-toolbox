@@ -158,6 +158,10 @@ $standard-letter-spacing:           1px !default;
 
 // Overrides
 
+body, html {
+	font-size: $core-font-size-5;
+}
+
 h4 {
 	font-size: $core-font-size-3;
 	font-weight: 500;
@@ -177,10 +181,6 @@ h4 {
 }
 
 .form-control {
-	color: $text-color-dark;
-}
-
-body {
 	color: $text-color-dark;
 }
 
@@ -205,7 +205,3 @@ svg .chart-viewport text {
 .ember-table-financial .ember-table-header-cell {
 	font-size: $core-font-size-5 !important;
 }
-
-
-
-
