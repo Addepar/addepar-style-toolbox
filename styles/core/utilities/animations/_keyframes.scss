@@ -1,7 +1,7 @@
 //  -----------------------------------
 //  Core - Utilities | Animations - Keyframe Declarations
 //  -----------------------------------
-
+@import '../../core-variables/opacity';
 
 @keyframes shake {
   0%   { transform: translateX(0);     }

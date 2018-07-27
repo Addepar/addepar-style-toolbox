@@ -26,5 +26,5 @@
 
 //  Transition Declarations
 //  -------------------------
-  $background-transition:             background $transition-speed-default $transition-type-default !default;
-  $overlay-transition:                visibility 0s, opacity $transition-speed-default  $transition-type-show !default;
+  $background-transition:             background $transition-speed-medium $transition-type-default !default;
+  $overlay-transition:                visibility 0s, opacity $transition-speed-medium  $transition-type-show !default;
