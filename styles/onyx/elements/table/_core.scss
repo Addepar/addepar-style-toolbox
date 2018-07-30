@@ -1,3 +1,5 @@
+@import './variables';
+
 // Table
 //
 // Table styling to use throughout the app.
@@ -69,8 +71,4 @@
 
 %table {
   @include base-table();
-}
-
-.table {
-  @extend %table;
 }

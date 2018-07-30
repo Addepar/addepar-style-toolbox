@@ -1,3 +1,9 @@
+@import '../../elements/table/index';
+@import '../../elements/inputs/checkbox/checkbox-core';
+@import '../../elements/inputs/checkbox/collapse-core';
+
+@import './variables';
+
 // Ember Table
 //
 // Stylings for Ember Table. For more information on tables, see the Ember Table
@@ -6,7 +12,7 @@
 // Styleguide Ember Table
 // -----------------------------------------------------------------------------
 
-.ember-table {
+@mixin base-ember-table() {
   @extend %table;
 
   /**** Sort Controls ****/
@@ -159,4 +165,8 @@
       }
     }
   }
+}
+
+%ember-table {
+  @include base-ember-table();
 }
