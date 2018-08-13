@@ -1,0 +1,42 @@
+// Icon Button
+// -----------------------
+// All this class does is set the colors for icons and evenly distribute the spacing
+
+.button-icon {
+  @extend %button;
+  color: $button-icon-color;
+  padding: 0;
+  width: $button-icon-size;
+  min-width: $button-icon-size;
+
+  &:hover,
+  &:active,
+  &.is-active,
+  &.active,
+  .open &.dropdown-toggle {
+    border-color: $button-icon-hover-border;
+  }
+
+  // Have to adjust the pressed background color for default button since
+  // its a bit too light
+  &:active,
+  &.is-active,
+  &.active,
+  .open &.dropdown-toggle {
+    background-color: ice-adjust-color($button-default-bg-color, -0.5);
+  }
+
+  // Sometimes the icon buttons will have images rather than font awesome icons,
+  // so we need to use opacity for the hover effect
+  img {
+    transition: opacity $button-icon-transition-duration ease-out;
+    opacity: $button-icon-img-opacity;
+    height: $button-icon-img-size;
+  }
+
+  &:hover img,
+  &.is-active img,
+  &.active img {
+    opacity: 1;
+  }
+}
