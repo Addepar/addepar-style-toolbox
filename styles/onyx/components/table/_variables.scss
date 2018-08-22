@@ -41,4 +41,13 @@ $et-indent-amount: $spacing-double;
 $et-selectable-row-hover-background: $background-hover;
 $et-selectable-row-selected-background: $background-hover-active;
 
-
+// Editable Table
+// -----------------------------------------------------------------------------
+$editable-table-header-bg-color: $background-extra-light;
+// TODO: Refer back to core-variables when shadow section is no longer broken
+$editable-table-header-box-shadow: 4px 2px 8px 0px rgba(0, 0, 0, 0.1);
+$editable-table-cell-padding: $spacing-default;
+// To match thinner looking scrollbar in design mock
+$editable-table-scrollbar-width: $spacing-default;
+$editable-table-input-active-border-width: 2px;
+$editable-table-input-active-border: $editable-table-input-active-border-width solid $brand-blue-gray;
