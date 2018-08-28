@@ -3,6 +3,7 @@
 //  -----------------------------------
 
 @import 'colors/index';
+@import 'opacity';
 
 //  Color
 //  -------------------------
@@ -30,8 +31,8 @@ $box-shadow-no-offset:                    0 0 !default;
 $box-shadow-offset-bottom-small:          0 $box-shadow-offset-small !default;      // 0px 3px
 $box-shadow-offset-bottom-medium:         0 $box-shadow-offset-medium !default;      // 0px 4px
 $box-shadow-offset-bottom-large:          0 $box-shadow-offset-large !default;       // 0px 5px
-$box-shadow-offset-top-small:             0 (-$box-shadow-offset-small !default;    // 0px -3px
-$box-shadow-offset-top-medium:            0 (-$box-shadow-offset-medium !default;   // 0px -4px
+$box-shadow-offset-top-small:             0 (-$box-shadow-offset-small) !default;    // 0px -3px
+$box-shadow-offset-top-medium:            0 (-$box-shadow-offset-medium) !default;   // 0px -4px
 
 //  Spread
 //  -------------------------
