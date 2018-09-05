@@ -24,11 +24,6 @@
   color: $table-text-color;
   font-size: $table-font-size;
 
-  th,
-  td {
-    overflow: $table-cell-overflow;
-  }
-
   th {
     height: $table-header-min-height; // Height in table cells is treated as min-height
 
