@@ -16,8 +16,6 @@ module.exports = {
   },
 
   included(app) {
-    let sass = require('node-sass');
-    let importOnce = require('node-sass-import-once');
     let autoprefixer = require('autoprefixer');
 
     let defaultPostcssOptions = {
@@ -44,21 +42,6 @@ module.exports = {
       defaultPostcssOptions
     );
 
-    if (!app.options.sassOptions.nodeSass) {
-      let sassRender = sass.render;
-
-      sass.render = function(options, callBack) {
-        options.importer = importOnce;
-        options.importOnce = {
-          index: false,
-          css: false,
-          bower: false,
-        };
-
-        sassRender(options, callBack);
-      };
-    }
-
-    app.options.sassOptions.nodeSass = sass;
+    this._super.included.apply(this, arguments);
   },
 };

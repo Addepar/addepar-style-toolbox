@@ -431,15 +431,15 @@
     $side-1: $left-bottom;
     $side-2: $right-bottom;
   }
-  @elseif $direction == 'top' {
+  @else if $direction == 'top' {
     $side-1: $left-top;
     $side-2: $right-top;
   }
-  @elseif $direction == 'left' {
+  @else if $direction == 'left' {
     $side-1: $left-bottom;
     $side-2: $left-top;
   }
-  @elseif $direction == 'right' {
+  @else if $direction == 'right' {
     $side-1: $right-bottom;
     $side-2: $right-top;
   }
