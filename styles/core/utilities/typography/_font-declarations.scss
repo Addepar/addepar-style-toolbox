@@ -109,3 +109,26 @@
 
 @include addepar-font-face('Tiempos Text', '#{$tiempos-text-font-folder}/TiemposTextWeb-SemiboldItalic',
   ('woff', 'eot'), $font-medium, italic);
+
+
+// Inter Font Files
+
+@include addepar-font-face('Inter', '#{$inter-font-folder}/Inter-Regular',
+  ('woff', 'eot'), $font-normal);
+
+@include addepar-font-face('Inter', '#{$inter-font-folder}/Inter-Medium',
+  ('woff', 'eot'), $font-medium);
+
+@include addepar-font-face('Inter', '#{$inter-font-folder}/Inter-SemiBold',
+('woff', 'eot'), $font-semi-bold);
+
+@include addepar-font-face('Inter', '#{$inter-font-folder}/Inter-Bold',
+('woff', 'eot'), $font-bold);
+
+// Inter Italics
+
+@include addepar-font-face('Inter', '#{$inter-font-folder}/Inter-Italic.woff',
+  ('woff', 'eot'), $font-normal, italic);
+
+@include addepar-font-face('Inter', '#{$inter-font-folder}/Inter-MediumItalic.woff.woff',
+('woff', 'eot'), $font-medium, italic);
