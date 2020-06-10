@@ -49,11 +49,14 @@ $button-danger-bg-color:          $text-red !default;
 $button-danger-border-color:      darken($button-danger-bg-color, 20%) !default;
 
 // Button icon
-$button-icon-color:               $icon-light-gray !default;
-$button-icon-hover-color:         darken($button-icon-color, 25%) !default;
+$button-icon-color:               #3a3a3a !default;
+//TODO in figma, we have the value specified via linear gradient, which isn't ideal.
+// As designers, we need to either specify a hex value or, if we were to keep using darken(), what would be the right %?
+//$button-icon-hover-color:         darken($button-icon-color, 25%) !default;
+$button-icon-hover-color:         linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), #F5F5F5;
 $button-icon-size:                $button-height !default;
 $button-icon-img-size:            20px !default;
-$button-icon-hover-border:        $button-default-border-color !default;
+$button-icon-hover-border:        rgba(0, 0, 0, 0.15) !default;
 $button-icon-img-opacity:         0.2 !default;
 $button-icon-transition-duration: $button-transition-speed !default;
 
