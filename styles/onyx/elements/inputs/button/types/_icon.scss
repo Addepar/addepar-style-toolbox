@@ -18,16 +18,13 @@
   .open &.dropdown-toggle {
     border-color: $button-icon-hover-border;
     //See comment on background color below
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), #F5F5F5;
+    background: $button-icon-hover-color;
   }
 
-  // Have to adjust the pressed background color for default button since
-  // its a bit too light
   &:active,
   &.is-active,
   &.active,
   .open &.dropdown-toggle {
-    background: #DCDCDC;
     z-index: 0;
   }
 
