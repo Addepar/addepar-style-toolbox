@@ -17,7 +17,6 @@
   &.active,
   .open &.dropdown-toggle {
     border-color: $button-icon-hover-border;
-    //See comment on background color below
     background: $button-icon-hover-color;
   }
 
