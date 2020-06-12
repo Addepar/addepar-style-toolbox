@@ -38,13 +38,6 @@
     color: ice-adjust-color($button-base-color,  -$button-pressed-color-inc);
   }
 
-  &:focus {
-    // Makes the focus outline slightly less obtrusive
-    outline-offset: $button-focus-outline-offset;
-    // Make outline more appealing to the eye
-    outline-color: $border-input;
-  }
-
   // Disabled state
   &[disabled],
   fieldset[disabled] & { // we may decide to change fieldset to a class later on

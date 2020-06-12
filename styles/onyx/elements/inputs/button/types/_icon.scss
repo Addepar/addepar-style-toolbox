@@ -27,17 +27,15 @@
   &.is-active,
   &.active,
   .open &.dropdown-toggle {
-    background: linear-gradient(0deg, #DCDCDC, #DCDCDC), #F5F5F5;
-    //TODO in figma, we have the value specified via linear gradient, which isn't ideal.
-    // As designers, we need to either specify a hex value or, if we were to keep using ice-adjust-color(),
-    // what would be the color and decimal passed in?
-    //background-color: ice-adjust-color($button-default-bg-color, -0.5);
+    background: #DCDCDC;
+    z-index: 0;
   }
 
   &:focus {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #F5F5F5;
-    //box-sizing: border-box; //pending design input
-    //box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+    background: #DCDCDC;
+    z-index: 0;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
   }
 
   img {
