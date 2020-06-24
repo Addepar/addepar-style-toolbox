@@ -5,6 +5,8 @@
 .button-icon {
   @extend %button;
   color: $button-icon-color;
+  background: #f4f4f4;
+  border-color: #d8d8d8; // We can't use button-default-* variables because they are reused by other styles other than button-icon (such as color-picker)
   padding: 0;
   width: $button-icon-size;
   min-width: $button-icon-size;
@@ -15,28 +17,24 @@
   &.active,
   .open &.dropdown-toggle {
     border-color: $button-icon-hover-border;
+    background: $button-icon-hover-color;
   }
 
-  // Have to adjust the pressed background color for default button since
-  // its a bit too light
   &:active,
   &.is-active,
   &.active,
   .open &.dropdown-toggle {
-    background-color: ice-adjust-color($button-default-bg-color, -0.5);
+    z-index: 0;
   }
 
-  // Sometimes the icon buttons will have images rather than font awesome icons,
-  // so we need to use opacity for the hover effect
+  &:focus {
+    background: #DCDCDC;
+    z-index: 0;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+  }
+
   img {
-    transition: opacity $button-icon-transition-duration ease-out;
-    opacity: $button-icon-img-opacity;
     height: $button-icon-img-size;
-  }
-
-  &:hover img,
-  &.is-active img,
-  &.active img {
-    opacity: 1;
   }
 }
