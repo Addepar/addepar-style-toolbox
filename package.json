@@ -19,12 +19,11 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "autoprefixer": "^8.5.1",
     "broccoli-file-creator": "^1.1.1",
     "broccoli-funnel": "^2.0.1",
     "broccoli-merge-trees": "^3.0.0",
     "ember-cli-babel": "^6.6.0",
-    "sass": "^1.17.0"
+    "ember-cli-sass": "^10.0.1"
   },
   "devDependencies": {
     "@addepar/eslint-config": "^4.0.1",
@@ -39,7 +38,6 @@
     "ember-cli-htmlbars-inline-precompile": "^1.0.0",
     "ember-cli-inject-live-reload": "^1.4.1",
     "ember-cli-qunit": "^4.1.1",
-    "ember-cli-sass": "^8.0.1",
     "ember-cli-sass-lint": "^1.0.5",
     "ember-cli-shims": "^1.2.0",
     "ember-cli-sri": "^2.1.0",
@@ -56,10 +54,11 @@
     "eslint-plugin-node": "^5.2.1",
     "loader.js": "^4.2.3",
     "prettier": "^1.13.2",
-    "sass-lint": "^1.12.1"
+    "sass": "^1.26.10",
+    "sass-lint": "^1.13.1"
   },
   "engines": {
-    "node": "8.* || >= 10.*"
+    "node": ">= 10.*"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
