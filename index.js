@@ -14,34 +14,4 @@ module.exports = {
 
     return mergeTrees([stylesTree, indexTree]);
   },
-
-  included(app) {
-    let autoprefixer = require('autoprefixer');
-
-    let defaultPostcssOptions = {
-      compile: {
-        enabled: false,
-      },
-      filter: {
-        enabled: true,
-        plugins: [
-          {
-            module: autoprefixer,
-            options: {
-              browsers: ['last 2 version', 'Safari >= 8'],
-            },
-          },
-        ],
-      },
-    };
-
-    app.options = app.options || {};
-    app.options.sassOptions = app.options.sassOptions || {};
-    app.options.postcssOptions = Object.assign(
-      app.options.postcssOptions || {},
-      defaultPostcssOptions
-    );
-
-    this._super.included.apply(this, arguments);
-  },
 };
