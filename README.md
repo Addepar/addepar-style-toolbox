@@ -1,7 +1,7 @@
 addepar-toolbox
 ==============================================================================
 
-This addon contains most of the CSS used in Addepar's design system and component library.
+This addon contains most of the CSS used in Addepar's legacy design system and component library (Onyx).
 Each addon in our component library will import specific CSS "modules" from this toolbox.
 
 As a general rule, this toolbox is for standardized, well-designed, reusable UI styles
