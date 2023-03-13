@@ -1,5 +1,9 @@
+'use strict';
+
+let name = require('./package').name;
+
 module.exports = {
-  name: '@addepar/style-toolbox',
+  name,
 
   treeForStyles() {
     let Funnel = require('broccoli-funnel');
@@ -7,7 +11,7 @@ module.exports = {
     let mergeTrees = require('broccoli-merge-trees');
 
     let stylesTree = new Funnel(`${this.root}/styles`, {
-      destDir: '@addepar/style-toolbox',
+      destDir: name,
     });
 
     let indexTree = writeFile('@addepar/style-toolbox.scss', "@import './style-toolbox/index';");
