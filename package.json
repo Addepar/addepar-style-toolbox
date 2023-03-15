@@ -25,6 +25,9 @@
     "test:ember": "ember test",
     "test:ember-compatibility": "ember try:each"
   },
+  "resolutions": {
+    "http-errors": "2.0.0"
+  },
   "dependencies": {
     "broccoli-file-creator": "^2.1.1",
     "broccoli-funnel": "^3.0.8",
