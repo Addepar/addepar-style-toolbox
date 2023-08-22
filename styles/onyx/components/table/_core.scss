@@ -80,12 +80,17 @@
   .et-reorder-drop-indicator {
     position: absolute;
     background: $et-reorder-drop-indicator-background;
-    border-left: $et-reorder-drop-indicator-border-left;
-    border-right: $et-reorder-drop-indicator-border-right;
 
     opacity: $et-reorder-indicator-opacity;
     z-index: 10;
     height: 100%;
+
+    &.et-reorder-direction-left {
+      border-left: $et-reorder-drop-indicator-border;
+    }
+    &.et-reorder-direction-right {
+      border-right: $et-reorder-drop-indicator-border;
+    }
   }
 
   &.is-reordering * {
