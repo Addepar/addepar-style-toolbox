@@ -1,6 +1,6 @@
 {
   "name": "@addepar/style-toolbox",
-  "version": "0.9.0",
+  "version": "1.0.0-0",
   "keywords": [
     "ember-addon"
   ],
@@ -85,7 +85,7 @@
   },
   "devDependencies": {
     "npm-run-all": "^4.1.5",
-		"release-it": "^15.5.0",
+    "release-it": "^15.5.0",
     "sass": "^1.71.1"
   },
   "engines": {
@@ -95,7 +95,7 @@
     "@addepar:registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-		"release": "release-it",
+    "release": "release-it",
     "test": "npm-run-all test:*",
     "test:sass": "node_modules/sass/sass.js styles/index.scss:style-built-output/index.css --stop-on-error"
   },
