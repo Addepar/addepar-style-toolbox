@@ -67,4 +67,4 @@ $button-caret-spacing:            $spacing-default;
 // Color picker button
 // Cell size is determined by how much room is in the button.
 // This ensures that if the button size ever changes, the cell should still size properly.
-$color-picker-button-cell-size:   $button-height - ($spacing-small / 2 * 2) - $input-border-width * 4;
+$color-picker-button-cell-size:   $button-height - (calc($spacing-small / 2 )* 2) - $input-border-width * 4;

@@ -111,8 +111,8 @@ $popover-placements: ('left': 'horizontal', 'right': 'horizontal', 'top': 'verti
     // Checking if px value was given, otherwise we don't need to do anything
     @if non-zero-value($adde-popover-max-height-px) {
       // Figure out the ratio of the given vh height to the current screen height
-      $viewport-ratio: $adde-popover-max-height-vh / 100vh;
-      $viewport-adjusted-height: $adde-popover-max-height-px / $viewport-ratio;
+      $viewport-ratio: calc($adde-popover-max-height-vh / 100vh);
+      $viewport-adjusted-height: calc($adde-popover-max-height-px / $viewport-ratio);
       @media screen and (min-height: $viewport-adjusted-height) {
         max-height: $adde-popover-max-height-px;
       }

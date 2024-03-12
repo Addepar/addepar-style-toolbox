@@ -1,11 +1,9 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist/
-/tmp/
+/style-built-output
 
 # dependencies
-/bower_components/
 /node_modules/
 
 # misc
@@ -19,11 +17,6 @@
 /npm-debug.log*
 /testem.log
 /yarn-error.log
-
-# ember-try
-/.node_modules.ember-try/
-/bower.json.ember-try
-/package.json.ember-try
 
 # intellij
 .idea/

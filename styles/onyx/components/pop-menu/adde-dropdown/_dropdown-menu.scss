@@ -139,7 +139,7 @@
 
     // TODO: investigate if this will cause any issues in Iverson
     .adde-dropdown-caret {
-      @include anchor-element($top: 50%, $right: $adde-dropdown-item-spacing-horizontal / 2);
+      @include anchor-element($top: 50%, $right: calc($adde-dropdown-item-spacing-horizontal / 2));
       transform: translateY(-50%);
     }
 
