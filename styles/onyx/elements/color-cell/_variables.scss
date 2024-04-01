@@ -4,7 +4,7 @@
 // Color Cell Variables
 // -------------
 $color-cell-size:                       $spacing-triple;
-$color-cell-spacing:                    calc($spacing-small / 2);
+$color-cell-spacing:                    $spacing-small / 2;
 $color-cell-disabled-opacity:           $disabled-item-opacity;
 
 // Border
