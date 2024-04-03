@@ -7,12 +7,12 @@
 //
 // Creates Addepar specific font face declaration, based on Compass font-face mixin
 // Assumes all font types have the same base file name (Addepar standard)
-// For best results, declare type in this order: woff, otf/ttf, svg, eot
+// For best results, declare type in this order: woff2, woff, otf/ttf, svg, eot
 //
 // ### Example Usage:
 //
 //   `@include addepar-font-face('Univers-Next',
-//     '/fonts/UniversNextW01Regular', ('woff', 'ttf'), $font-normal);`
+//     '/fonts/UniversNextW01Regular', ('woff2', 'ttf'), $font-normal);`
 //
 // ### Parameters:
 //
