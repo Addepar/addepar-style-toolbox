@@ -1,0 +1,44 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  - package-ecosystem: npm
+    versioning-strategy: lockfile-only
+    registries: "*"
+    # Run every Tuesday and Thursday https://crontab.guru/#0_0_*_*_2,4
+    schedule:
+      interval: cron
+      cronjob: 0 0 * * 2,4
+      timezone: America/New_York
+    open-pull-requests-limit: 6
+    pull-request-branch-name:
+      separator: "-"
+    labels:
+      - internal
+    groups:
+      babel:
+        applies-to: version-updates
+        patterns:
+          - "@babel/*"
+      embroider:
+        applies-to: version-updates
+        patterns:
+          - "@embroider/*"
+  - package-ecosystem: github-actions
+    directory: /
+    # Run every Tuesday and Thursday https://crontab.guru/#0_0_*_*_2,4
+    schedule:
+      interval: cron
+      cronjob: 0 0 * * 2,4
+      timezone: America/New_York
+    open-pull-requests-limit: 4
+    labels:
+      - internal
+    ignore:
+      - dependency-name: Addepar/praetorian
+      - dependency-name: Addepar/security-workflows
+      - dependency-name: Addepar/centralized-workflows
+      - dependency-name: Addepar/code-security-scanning
