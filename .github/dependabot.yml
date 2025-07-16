@@ -6,6 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: npm
+    directory: /
     versioning-strategy: lockfile-only
     registries: "*"
     # Run every Tuesday and Thursday https://crontab.guru/#0_0_*_*_2,4
