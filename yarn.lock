@@ -25,19 +25,19 @@
     js-tokens "^4.0.0"
 
 "@embroider/addon-shim@^1.8.7":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.10.0.tgz#7c3325e0939674290a9ca4ad7d744ee69313c0a0"
-  integrity sha512-gcJuHiXgnrzaU8NyU+2bMbtS6PNOr5v5B8OXBqaBvTCsMpXLvKo8OBOQFCoUN0rPX2J6VaFqrbi/371sMvzZug==
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.10.2.tgz#5164c65de0fd242422594c2f94b3c5eab4ab8e36"
+  integrity sha512-EfI9cJ5/3QSUJtwm7x1MXrx3TEa2p7RNgSHefy7fvGm8/DP1xUFL25nST1NaHbHcqR1UhMlrTtv5iUIDoVzeQQ==
   dependencies:
-    "@embroider/shared-internals" "^3.0.0"
+    "@embroider/shared-internals" "^3.0.1"
     broccoli-funnel "^3.0.8"
     common-ancestor-path "^1.0.1"
     semver "^7.3.8"
 
-"@embroider/shared-internals@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-3.0.0.tgz#98251e6b99d36d64120361a449569ef5384b3812"
-  integrity sha512-5J5ipUMCAinQS38WW7wedruq5Z4VnHvNo+ZgOduw0PtI9w0CQWx7/HE+98PBDW8jclikeF+aHwF317vc1hwuzg==
+"@embroider/shared-internals@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-3.0.1.tgz#e2ad3ce7d247a85c9fbca50c326e5111bd47adab"
+  integrity sha512-d7RQwDwqqHo7YvjE9t1rtIrCCYtbSoO0uRq2ikVhRh4hGS5OojZNu2ZtS0Wqrg+V72CRtMFr/hibTvHNsRM2Lg==
   dependencies:
     babel-import-util "^3.0.1"
     debug "^4.3.2"
@@ -47,7 +47,7 @@
     js-string-escape "^1.0.1"
     lodash "^4.17.21"
     minimatch "^3.0.4"
-    pkg-entry-points "^1.1.0"
+    pkg-entry-points "^1.1.1"
     resolve-package-path "^4.0.1"
     resolve.exports "^2.0.2"
     semver "^7.3.5"
@@ -3154,7 +3154,7 @@ pify@^3.0.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
   integrity sha512-C3FsVNH1udSEX48gGX1xfvwTWfsYWj5U+8/uK15BGzIGrKoUpghX8hWZwa/OFnakBiiVNmBvemTJR5mcy7iPcg==
 
-pkg-entry-points@^1.1.0:
+pkg-entry-points@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/pkg-entry-points/-/pkg-entry-points-1.1.1.tgz#d5cd87f934e873bf73143ed1d0baf637e5f8fda4"
   integrity sha512-BhZa7iaPmB4b3vKIACoppyUoYn8/sFs17VJJtzrzPZvEnN2nqrgg911tdL65lA2m1ml6UI3iPeYbZQ4VXpn1mA==
