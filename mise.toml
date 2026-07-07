@@ -1,0 +1,5 @@
+[tools]
+node = "20.11.1"
+
+[settings.node]
+corepack = true
