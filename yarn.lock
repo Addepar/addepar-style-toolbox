@@ -25,19 +25,19 @@
     js-tokens "^4.0.0"
 
 "@embroider/addon-shim@^1.8.7":
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.10.2.tgz#5164c65de0fd242422594c2f94b3c5eab4ab8e36"
-  integrity sha512-EfI9cJ5/3QSUJtwm7x1MXrx3TEa2p7RNgSHefy7fvGm8/DP1xUFL25nST1NaHbHcqR1UhMlrTtv5iUIDoVzeQQ==
+  version "1.10.3"
+  resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.10.3.tgz#562f488d5f1364170242722176feba1622305fc2"
+  integrity sha512-GYbaiC1v9inbiwVg5s+Sd14Jc66NYxg23mEOocgWAZFCtOfhMnRLaLAA6SytW76myVVYImGHX5PFK4PVuH2yng==
   dependencies:
-    "@embroider/shared-internals" "^3.0.1"
+    "@embroider/shared-internals" "^3.1.1"
     broccoli-funnel "^3.0.8"
     common-ancestor-path "^1.0.1"
     semver "^7.3.8"
 
-"@embroider/shared-internals@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-3.0.1.tgz#e2ad3ce7d247a85c9fbca50c326e5111bd47adab"
-  integrity sha512-d7RQwDwqqHo7YvjE9t1rtIrCCYtbSoO0uRq2ikVhRh4hGS5OojZNu2ZtS0Wqrg+V72CRtMFr/hibTvHNsRM2Lg==
+"@embroider/shared-internals@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-3.1.1.tgz#d29487c3ddecb9f03e3df420f38b7f6e50f5163f"
+  integrity sha512-IlxD8okTt9cRUFpJKD8gTuQUBuEflrhCUju1xZFdYvmGm5XVqHPfG4I6+bEdKb8NO92aqHxr9SYuYibDmpMM9w==
   dependencies:
     babel-import-util "^3.0.1"
     debug "^4.3.2"
